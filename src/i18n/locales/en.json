@@ -1,0 +1,244 @@
+{
+  "header": {
+    "solutions": "Solutions",
+    "advantages": "Benefits",
+    "pricing": "Pricing",
+    "contact": "Contact"
+  },
+  "hero": {
+    "title": "Digital solutions to transform your professional life",
+    "subtitle": "Improve your productivity, automate your tasks and develop your online presence",
+    "description": "At Digismart, we transform your daily challenges into opportunities through adapted and innovative solutions. From social media management to custom application development, each tool is designed to solve your specific problems and boost your productivity.",
+    "cta": {
+      "primary": "Discover our solutions now!",
+      "secondary": "Learn more"
+    },
+    "benefits": {
+      "custom": "Custom solutions",
+      "free": "No commitment",
+      "support": "24/7 dedicated support"
+    }
+  },
+  "solutions": {
+    "mainTitle": "Innovative solutions for every need",
+    "title": "Our solutions are...",
+    "subtitle": "Solutions adapted to your needs",
+    "apps": {
+      "title": "Custom Applications",
+      "description": "Simplify your processes, reduce time waste and increase your sales with customized applications. Risk-free model: you only pay based on results achieved.",
+      "benefits": [
+        "Custom applications",
+        "Risk-free model",
+        "Payment based on results"
+      ]
+    },
+    "social": {
+      "title": "Social Media Management",
+      "description": "Attract and engage your customers with creative and strategic content. We handle everything from creation to publication to maximize your online impact.",
+      "benefits": [
+        "Creative content",
+        "Complete management",
+        "Maximized impact"
+      ]
+    }
+  },
+  "features": {
+    "mainTitle": "Innovative solutions for every need",
+    "subtitle": "Discover how our customized solutions can address your specific business challenges",
+    "title": "Time-saving",
+    "description": "In a world where speed and efficiency are essential, our solutions help you optimize every minute of your day.",
+    "benefits": [
+      "Order and payment automation",
+      "Real-time tracking",
+      "Simplified planning",
+      "Human error elimination",
+      "Simplified operations management"
+    ],
+    "sales": {
+      "title": "Sales Simplification",
+      "description": "Boost your revenue with a smooth and effortless customer experience.",
+      "benefits": [
+        "Accessible online ordering system",
+        "Automated customer communication",
+        "Improved user experience",
+        "Staff time savings for other tasks"
+      ]
+    },
+    "customization": {
+      "title": "Complete Customization",
+      "description": "Tailor-made solutions to reflect your company's values.",
+      "benefits": [
+        "Customized interface",
+        "Modular features",
+        "Guaranteed scalability",
+        "Custom visual identity",
+        "Adaptability to internal processes",
+        "Access level customization"
+      ]
+    },
+    "content": {
+      "title": "Digital Content Creation",
+      "description": "Showcase your business with a professional and engaging online presence.",
+      "benefits": [
+        "Impactful social media posts",
+        "Adapted content strategy",
+        "Analytics tools",
+        "SEO-optimized content",
+        "Various and innovative formats",
+        "Target audience customization",
+        "Custom editorial calendar"
+      ]
+    }
+  },
+  "pricing": {
+    "headline": "Choose the DigiSmart plan that best fits your business!",
+    "contactButton": "Contact",
+    "plans": {
+      "freedom": {
+        "name": "Freedom",
+        "badge": "Commission",
+        "description": "Full access for 1 free month. Then limited to a maximum of 10 visible products.",
+        "priceNote": "on sales",
+        "features": [
+          "1 full free month",
+          "Maximum 10 visible products",
+          "3% commission on sales",
+          "No admin panel",
+          "No customization",
+          "Initial menu as additional option"
+        ]
+      },
+      "pro": {
+        "name": "Pro",
+        "badge": "Popular",
+        "description": "Full access for 1 free month. Up to 20 products, logo, colors and schedules.",
+        "period": "/ month",
+        "priceNote": "Monthly subscription",
+        "features": [
+          "1 full free month",
+          "Up to 20 products",
+          "Customization: logo and colors",
+          "Schedule management",
+          "No admin panel",
+          "Initial menu as additional option"
+        ]
+      },
+      "premium": {
+        "name": "Premium",
+        "badge": "Complete",
+        "description": "Full access for 1 free month. Unlimited products, full dashboard and complete customization.",
+        "period": "/ month",
+        "priceNote": "Monthly subscription",
+        "features": [
+          "1 full free month",
+          "Unlimited products",
+          "Full admin dashboard",
+          "Complete customization",
+          "Menu included from start",
+          "Up to 15 modifications/month included"
+        ]
+      }
+    },
+    "additionalServices": {
+      "title": "Additional Services",
+      "services": [
+        {
+          "name": "Initial menu creation",
+          "description": "Complete menu creation with up to 20 products",
+          "price": "€20"
+        },
+        {
+          "name": "One-time product modification",
+          "description": "Add or modify one product",
+          "price": "€1"
+        }
+      ]
+    }
+  },
+  "advantages": {
+    "title": "Why choose Digismart?",
+    "subtitle": "Unique expertise for your success",
+    "items": [
+      {
+        "title": "Dual Expertise",
+        "description": "A winning combination of intelligent application and optimized social media strategy"
+      },
+      {
+        "title": "Financially accessible to all",
+        "description": "No initial investment required. Your success is our priority"
+      },
+      {
+        "title": "Personalized Support",
+        "description": "Appointment scheduling to ensure perfect understanding of needs, after email and phone exchange. Dedicated follow-up with an advisor who guides step by step."
+      }
+    ]
+  },
+  "testimonials": {
+    "title": "They trust us",
+    "subtitle": "Discover how our solutions have helped our clients transform their daily operations. Watch our application in action and see the results for yourself.",
+    "cta": "Watch our solution in action!",
+    "videoUrl": "/videos/demo-solution-en.mp4",
+    "labels": {
+      "challenge": "The Challenge",
+      "solution": "Our Solution",
+      "results": "Results"
+    },
+    "cases": [
+      {
+        "name": "Pizzeria",
+        "role": "Restaurant",
+        "challenge": "Inefficient order management and limited online presence",
+        "solution": "Online ordering application and social media management",
+        "results": [
+          "Increased orders",
+          "Optimized social presence",
+          "Significant time savings"
+        ]
+      }
+    ]
+  },
+  "contact": {
+    "title": "Ready to propel your business?",
+    "subtitle": "Contact our team to discover how our solutions can adapt to your specific needs. Together, let's achieve your goals!",
+    "form": {
+      "name": "Name",
+      "email": "Email",
+      "message": "Message",
+      "submit": "Contact us now!",
+      "placeholders": {
+        "name": "Your name",
+        "email": "you@example.com",
+        "message": "Describe your project..."
+      }
+    },
+    "info": {
+      "title": "Our contact details",
+      "phone": "Phone",
+      "address": "Address",
+      "email": "aliceleacosta@gmail.com",
+      "location": "Oliveira Santa Maria, Portugal"
+    }
+  },
+  "footer": {
+    "description": "Innovative digital solutions to transform your professional daily life.",
+    "navigation": "Navigation",
+    "legal": {
+      "title": "Legal information",
+      "terms": "Terms and Conditions",
+      "privacy": "Privacy Policy",
+      "cookies": "Cookie Policy",
+      "legal": "Legal Notice"
+    },
+    "contact": "Contact",
+    "rights": "All rights reserved."
+  },
+  "meta": {
+    "title": "Digismart - Innovative Technology Solutions",
+    "description": "Custom digital solutions to transform your professional daily life. Custom applications and social media management to boost your productivity."
+  },
+  "promo": {
+    "title": "Start for free - No commitment",
+    "titleShort": "Start free",
+    "cta": "Get Started"
+  }
+}

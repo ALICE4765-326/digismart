@@ -1,0 +1,32 @@
+# Dossier pour les vidéos
+# 
+# SYSTÈME SIMPLE DE VIDÉOS AVEC LANGUES :
+# 
+# === VIDÉO UNIQUE (pour toutes les langues) ===
+# - 1.mp4 (première vidéo)
+# - 2.mp4 (deuxième vidéo)
+# - 3.mp4 (troisième vidéo)
+# 
+# === VIDÉOS PAR LANGUE (optionnel) ===
+# - 1-fr.mp4 (français)
+# - 1-en.mp4 (anglais)
+# - 1-pt.mp4 (portugais)
+# 
+# - 2-fr.mp4 (français v2)
+# - 2-en.mp4 (anglais v2)
+# - 2-pt.mp4 (portugais v2)
+# 
+# POUR CHANGER DE VIDÉO :
+# 1. Déposez vos nouvelles vidéos
+# 2. Modifiez le fichier src/config/site.ts
+# 3. Changez les numéros : 1 → 2, 2 → 3, etc.
+# 4. C'est tout !
+# 
+# PRIORITÉ :
+# 1. Vidéo spécifique à la langue (ex: 1-fr.mp4)
+# 2. Vidéo par défaut (ex: 1.mp4)
+# 
+# FORMATS SUPPORTÉS :
+# - MP4 (recommandé)
+# - WebM
+# - OGV

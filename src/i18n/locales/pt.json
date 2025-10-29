@@ -1,0 +1,244 @@
+{
+  "header": {
+    "solutions": "Soluções",
+    "advantages": "Vantagens",
+    "pricing": "Preços",
+    "contact": "Contato"
+  },
+  "hero": {
+    "title": "Soluções digitais para transformar seu dia a dia profissional",
+    "subtitle": "Melhore sua produtividade, automatize suas tarefas e desenvolva sua presença online",
+    "description": "Na Digismart, transformamos seus desafios diários em oportunidades através de soluções adaptadas e inovadoras. Do gerenciamento de redes sociais ao desenvolvimento de aplicativos personalizados, cada ferramenta é projetada para resolver seus problemas específicos e impulsionar sua produtividade.",
+    "cta": {
+      "primary": "Descubra nossas soluções agora!",
+      "secondary": "Saiba mais"
+    },
+    "benefits": {
+      "custom": "Soluções personalizadas",
+      "free": "Sem compromisso",
+      "support": "Suporte dedicado 24/7"
+    }
+  },
+  "solutions": {
+    "mainTitle": "Soluções inovadoras para cada necessidade",
+    "title": "Nossas soluções são...",
+    "subtitle": "Soluções adaptadas às suas necessidades",
+    "apps": {
+      "title": "Aplicativos Personalizados",
+      "description": "Simplifique seus processos, reduza perdas de tempo e aumente suas vendas com aplicativos personalizados. Modelo sem risco: você só paga pelos resultados obtidos.",
+      "benefits": [
+        "Aplicativos personalizados",
+        "Modelo sem risco",
+        "Pagamento por resultados"
+      ]
+    },
+    "social": {
+      "title": "Gestão de Redes Sociais",
+      "description": "Atraia e engaje seus clientes com conteúdo criativo e estratégico. Nós cuidamos de tudo, da criação à publicação, para maximizar seu impacto online.",
+      "benefits": [
+        "Conteúdo criativo",
+        "Gestão completa",
+        "Impacto maximizado"
+      ]
+    }
+  },
+  "features": {
+    "mainTitle": "Soluções inovadoras para cada necessidade",
+    "subtitle": "Descubra como nossas soluções personalizadas podem atender aos desafios específicos da sua empresa",
+    "title": "Economia de tempo",
+    "description": "Em um mundo onde velocidade e eficiência são essenciais, nossas soluções ajudam você a otimizar cada minuto do seu dia.",
+    "benefits": [
+      "Automatização de pedidos e pagamentos",
+      "Acompanhamento em tempo real",
+      "Planejamento simplificado",
+      "Eliminação de erros humanos",
+      "Gestão simplificada de operações"
+    ],
+    "sales": {
+      "title": "Simplificação de Vendas",
+      "description": "Aumente sua receita com uma experiência do cliente suave e sem esforço.",
+      "benefits": [
+        "Sistema de pedidos online acessível",
+        "Comunicação automatizada com o cliente",
+        "Experiência do usuário aprimorada",
+        "Economia de tempo da equipe para outras tarefas"
+      ]
+    },
+    "customization": {
+      "title": "Personalização Completa",
+      "description": "Soluções sob medida para refletir os valores da sua empresa.",
+      "benefits": [
+        "Interface personalizada",
+        "Recursos modulares",
+        "Escalabilidade garantida",
+        "Identidade visual personalizada",
+        "Adaptabilidade aos processos internos",
+        "Personalização de níveis de acesso"
+      ]
+    },
+    "content": {
+      "title": "Criação de Conteúdo Digital",
+      "description": "Destaque seu negócio com uma presença online profissional e envolvente.",
+      "benefits": [
+        "Posts impactantes para redes sociais",
+        "Estratégia de conteúdo adaptada",
+        "Ferramentas de análise",
+        "Conteúdo otimizado para SEO",
+        "Formatos variados e inovadores",
+        "Personalização para público-alvo",
+        "Calendário editorial personalizado"
+      ]
+    }
+  },
+  "pricing": {
+    "headline": "Escolhe o plano DigiSmart que melhor se adapta ao teu negócio!",
+    "contactButton": "Contacto",
+    "plans": {
+      "freedom": {
+        "name": "Liberdade",
+        "badge": "Comissão",
+        "description": "Acesso completo durante 1 mês gratuito. Depois, limitado a um máximo de 10 produtos visíveis.",
+        "priceNote": "sobre as vendas",
+        "features": [
+          "1 mês gratuito completo",
+          "Máximo de 10 produtos visíveis",
+          "3% de comissão sobre vendas",
+          "Sem parte admin",
+          "Sem personalização",
+          "Menu inicial como opção adicional"
+        ]
+      },
+      "pro": {
+        "name": "Pro",
+        "badge": "Popular",
+        "description": "Acesso completo durante 1 mês gratuito. Até 20 produtos, logótipo, cores e horários.",
+        "period": "/ mês",
+        "priceNote": "Subscrição mensal",
+        "features": [
+          "1 mês gratuito completo",
+          "Até 20 produtos",
+          "Personalização: logótipo e cores",
+          "Gestão de horários",
+          "Sem parte admin",
+          "Menu inicial como opção adicional"
+        ]
+      },
+      "premium": {
+        "name": "Premium",
+        "badge": "Completo",
+        "description": "Acesso completo durante 1 mês gratuito. Produtos ilimitados, painel completo e personalização total.",
+        "period": "/ mês",
+        "priceNote": "Subscrição mensal",
+        "features": [
+          "1 mês gratuito completo",
+          "Produtos ilimitados",
+          "Painel de administração completo",
+          "Personalização total",
+          "Menu incluído desde o início",
+          "Até 15 modificações/mês incluídas"
+        ]
+      }
+    },
+    "additionalServices": {
+      "title": "Serviços Adicionais",
+      "services": [
+        {
+          "name": "Criação do menu inicial",
+          "description": "Criação completa do menu com até 20 produtos",
+          "price": "20€"
+        },
+        {
+          "name": "Modificação pontual de produto",
+          "description": "Adiciona ou altera um produto",
+          "price": "1€"
+        }
+      ]
+    }
+  },
+  "advantages": {
+    "title": "Por que escolher a Digismart?",
+    "subtitle": "Expertise única para seu sucesso",
+    "items": [
+      {
+        "title": "Expertise Dupla",
+        "description": "Uma combinação vencedora entre aplicativo inteligente e estratégia otimizada de redes sociais"
+      },
+      {
+        "title": "Financeiramente acessível a todos",
+        "description": "Nenhum investimento inicial necessário. Seu sucesso é nossa prioridade"
+      },
+      {
+        "title": "Suporte Personalizado",
+        "description": "Agendamento de reuniões para garantir compreensão perfeita das necessidades, após troca por email e telefone. Acompanhamento dedicado com um consultor que orienta passo a passo."
+      }
+    ]
+  },
+  "testimonials": {
+    "title": "Eles confiam em nós",
+    "subtitle": "Descubra como nossas soluções ajudaram nossos clientes a transformar seu dia a dia. Veja nosso aplicativo em ação e confira os resultados por si mesmo.",
+    "cta": "Veja nossa solução em ação!",
+    "videoUrl": "/videos/demo-solution-pt.mp4",
+    "labels": {
+      "challenge": "O Desafio",
+      "solution": "Nossa Solução",
+      "results": "Resultados"
+    },
+    "cases": [
+      {
+        "name": "Pizzaria",
+        "role": "Restaurante",
+        "challenge": "Gestão ineficiente de pedidos e presença online limitada",
+        "solution": "Aplicativo de pedidos online e gestão de redes sociais",
+        "results": [
+          "Aumento de pedidos",
+          "Presença social otimizada",
+          "Economia significativa de tempo"
+        ]
+      }
+    ]
+  },
+  "contact": {
+    "title": "Pronto para impulsionar sua atividade?",
+    "subtitle": "Entre em contato com nossa equipe para descobrir como nossas soluções podem se adaptar às suas necessidades específicas. Juntos, vamos alcançar seus objetivos!",
+    "form": {
+      "name": "Nome",
+      "email": "Email",
+      "message": "Mensagem",
+      "submit": "Entre em contato agora!",
+      "placeholders": {
+        "name": "Seu nome",
+        "email": "voce@exemplo.com",
+        "message": "Descreva seu projeto..."
+      }
+    },
+    "info": {
+      "title": "Nossos contatos",
+      "phone": "Telefone",
+      "address": "Endereço",
+      "email": "aliceleacosta@gmail.com",
+      "location": "Oliveira Santa Maria, Portugal"
+    }
+  },
+  "footer": {
+    "description": "Soluções digitais inovadoras para transformar seu dia a dia profissional.",
+    "navigation": "Navegação",
+    "legal": {
+      "title": "Informações legais",
+      "terms": "Termos e Condições",
+      "privacy": "Política de Privacidade",
+      "cookies": "Política de Cookies",
+      "legal": "Aviso Legal"
+    },
+    "contact": "Contato",
+    "rights": "Todos os direitos reservados."
+  },
+  "meta": {
+    "title": "Digismart - Soluções Tecnológicas Inovadoras",
+    "description": "Soluções digitais personalizadas para transformar seu dia a dia profissional. Aplicativos personalizados e gestão de redes sociais para impulsionar sua produtividade."
+  },
+  "promo": {
+    "title": "Comece gratuitamente - Sem compromisso",
+    "titleShort": "Comece grátis",
+    "cta": "Começar"
+  }
+}
