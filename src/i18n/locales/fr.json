@@ -1,6 +1,7 @@
 {
   "header": {
-    "solutions": "Accueil",
+    "home": "Accueil",
+    "solutions": "Solutions",
     "advantages": "Avantages",
     "pricing": "Tarifs",
     "contact": "Contact"
@@ -40,6 +41,42 @@
         "Gestion complète",
         "Impact maximisé"
       ]
+    },
+    "appTakeAway": {
+      "title": "AppTakeAway — La solution universelle de commande pour tous les commerçants",
+      "subtitle": "Simplifiez vos commandes, boostez vos ventes, et offrez une expérience fluide à vos clients.",
+      "description": "AppTakeAway est une application simple et puissante, conçue pour tous les types de commerces : restaurants, boulangeries, pizzerias, fleuristes, cavistes, takeaways, et bien plus encore. Une solution unique pour gérer vos commandes, vos clients et vos ventes, depuis une seule interface intuitive.",
+      "videosTitle": "🎬 Démonstrations vidéo",
+      "videos": {
+        "merchant": "Côté commerçant — Gestion simplifiée",
+        "customer": "Côté client — Commande rapide",
+        "admin": "Espace administratif — Statistiques et suivi",
+        "delivery": "Option livraison — Service intégré"
+      },
+      "testTitle": "Testez AppTakeAway dès maintenant !",
+      "testDescription": "Scannez le QR code ci-dessous pour découvrir une application type et tester l'expérience complète.",
+      "stepsTitle": "Étapes d'installation et de test",
+      "steps": {
+        "step1": "Scannez le QR code avec votre smartphone",
+        "step2": "Téléchargez et installez l'application de test",
+        "step3": "Explorez toutes les fonctionnalités en situation réelle"
+      }
+    },
+    "futureProjects": {
+      "title": "Nos futurs développements",
+      "payment": {
+        "title": "Paiement intégré",
+        "description": "Solution de paiement sécurisée directement dans l'application"
+      },
+      "booking": {
+        "title": "Application de prise de rendez-vous",
+        "description": "Gérez vos réservations et rendez-vous en toute simplicité"
+      },
+      "aiPhone": {
+        "title": "IA de commande téléphonique",
+        "description": "Intelligence artificielle pour gérer vos commandes par téléphone"
+      },
+      "cta": "Ces innovations sont en cours de développement. Si vous êtes intéressé par l'une de ces futures solutions, contactez-nous pour en discuter !"
     }
   },
   "features": {

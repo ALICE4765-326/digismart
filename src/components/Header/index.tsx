@@ -46,7 +46,8 @@ export const Header = () => {
           
           <nav className="hidden md:flex items-center space-x-12">
             {[
-              { to: '/', label: t('header.solutions') },
+              { to: '/', label: t('header.home') },
+              { to: '/solutions', label: t('header.solutions') },
               { to: '/pricing', label: t('header.pricing') },
               { to: '/contact', label: t('header.contact') }
             ].map((item) => (

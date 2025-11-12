@@ -25,7 +25,8 @@ export const MobileMenu: React.FC<MobileMenuProps> = ({ isOpen, onClose }) => {
     >
       <nav className="p-4 space-y-2">
         {[
-          { to: '/', label: t('header.solutions') },
+          { to: '/', label: t('header.home') },
+          { to: '/solutions', label: t('header.solutions') },
           { to: '/pricing', label: t('header.pricing') },
           { to: '/contact', label: t('header.contact') }
         ].map((item) => (

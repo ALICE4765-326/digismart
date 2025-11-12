@@ -1,6 +1,7 @@
 {
   "header": {
-    "solutions": "Home",
+    "home": "Home",
+    "solutions": "Solutions",
     "advantages": "Benefits",
     "pricing": "Pricing",
     "contact": "Contact"
@@ -40,6 +41,42 @@
         "Complete management",
         "Maximized impact"
       ]
+    },
+    "appTakeAway": {
+      "title": "AppTakeAway — The universal ordering solution for all businesses",
+      "subtitle": "Simplify your orders, boost your sales, and offer a seamless experience to your customers.",
+      "description": "AppTakeAway is a simple and powerful application, designed for all types of businesses: restaurants, bakeries, pizzerias, florists, wine shops, takeaways, and much more. A single solution to manage your orders, customers and sales from one intuitive interface.",
+      "videosTitle": "🎬 Video Demonstrations",
+      "videos": {
+        "merchant": "Merchant Side — Simplified Management",
+        "customer": "Customer Side — Quick Ordering",
+        "admin": "Admin Dashboard — Statistics and Tracking",
+        "delivery": "Delivery Option — Integrated Service"
+      },
+      "testTitle": "Test AppTakeAway now!",
+      "testDescription": "Scan the QR code below to discover a sample application and test the complete experience.",
+      "stepsTitle": "Installation and Testing Steps",
+      "steps": {
+        "step1": "Scan the QR code with your smartphone",
+        "step2": "Download and install the test application",
+        "step3": "Explore all features in a real situation"
+      }
+    },
+    "futureProjects": {
+      "title": "Our Future Developments",
+      "payment": {
+        "title": "Integrated Payment",
+        "description": "Secure payment solution directly in the application"
+      },
+      "booking": {
+        "title": "Appointment Booking App",
+        "description": "Manage your reservations and appointments with ease"
+      },
+      "aiPhone": {
+        "title": "AI Phone Ordering",
+        "description": "Artificial intelligence to handle your phone orders"
+      },
+      "cta": "These innovations are under development. If you are interested in any of these future solutions, contact us to discuss!"
     }
   },
   "features": {

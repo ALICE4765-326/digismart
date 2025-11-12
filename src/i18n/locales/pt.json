@@ -1,6 +1,7 @@
 {
   "header": {
-    "solutions": "Início",
+    "home": "Início",
+    "solutions": "Soluções",
     "advantages": "Vantagens",
     "pricing": "Preços",
     "contact": "Contato"
@@ -40,6 +41,42 @@
         "Gestão completa",
         "Impacto maximizado"
       ]
+    },
+    "appTakeAway": {
+      "title": "AppTakeAway — A solução universal de pedidos para todos os comerciantes",
+      "subtitle": "Simplifique seus pedidos, aumente suas vendas e ofereça uma experiência perfeita aos seus clientes.",
+      "description": "AppTakeAway é um aplicativo simples e poderoso, projetado para todos os tipos de comércio: restaurantes, padarias, pizzarias, floristas, lojas de vinhos, takeaways e muito mais. Uma solução única para gerenciar seus pedidos, clientes e vendas, a partir de uma interface intuitiva.",
+      "videosTitle": "🎬 Demonstrações em vídeo",
+      "videos": {
+        "merchant": "Lado do Comerciante — Gestão Simplificada",
+        "customer": "Lado do Cliente — Pedido Rápido",
+        "admin": "Painel Administrativo — Estatísticas e Acompanhamento",
+        "delivery": "Opção de Entrega — Serviço Integrado"
+      },
+      "testTitle": "Teste o AppTakeAway agora!",
+      "testDescription": "Escaneie o QR code abaixo para descobrir um aplicativo de exemplo e testar a experiência completa.",
+      "stepsTitle": "Etapas de instalação e teste",
+      "steps": {
+        "step1": "Escaneie o QR code com seu smartphone",
+        "step2": "Baixe e instale o aplicativo de teste",
+        "step3": "Explore todas as funcionalidades em situação real"
+      }
+    },
+    "futureProjects": {
+      "title": "Nossos Desenvolvimentos Futuros",
+      "payment": {
+        "title": "Pagamento Integrado",
+        "description": "Solução de pagamento segura diretamente no aplicativo"
+      },
+      "booking": {
+        "title": "Aplicativo de Agendamento",
+        "description": "Gerencie suas reservas e compromissos com facilidade"
+      },
+      "aiPhone": {
+        "title": "IA de Pedidos por Telefone",
+        "description": "Inteligência artificial para gerenciar seus pedidos por telefone"
+      },
+      "cta": "Essas inovações estão em desenvolvimento. Se você está interessado em alguma dessas soluções futuras, entre em contato para discutir!"
     }
   },
   "features": {
