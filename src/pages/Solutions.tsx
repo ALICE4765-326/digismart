@@ -148,7 +148,7 @@ export const Solutions = () => {
             {t('solutions.futureProjects.title')}
           </h2>
 
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-12">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-12">
             {futureProjects.map((project, index) => {
               const Icon = project.icon;
               return (
