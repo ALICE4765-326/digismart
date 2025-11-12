@@ -1,15 +1,16 @@
 import React from 'react';
 import { useTranslation } from 'react-i18next';
-import { ShoppingBag, Users, TrendingUp, Video, QrCode, CreditCard, Calendar, PhoneCall, MapPin } from 'lucide-react';
+import { ShoppingBag, Users, TrendingUp, Video, QrCode, CreditCard, Calendar, PhoneCall, MapPin, Utensils, Croissant, Flower, Wine, Pizza } from 'lucide-react';
 
 export const Solutions = () => {
   const { t } = useTranslation();
 
   const commerceTypes = [
-    { icon: '🍽️', label: 'Restaurants' },
-    { icon: '🥖', label: 'Boulangeries' },
-    { icon: '💐', label: 'Fleuristes' },
-    { icon: '🍾', label: 'Cavistes' },
+    { icon: Utensils },
+    { icon: Croissant },
+    { icon: Flower },
+    { icon: Wine },
+    { icon: Pizza },
   ];
 
   const videoCards = [
@@ -52,16 +53,18 @@ export const Solutions = () => {
 
             {/* Commerce Icons */}
             <div className="flex flex-wrap justify-center gap-6 mb-16">
-              {commerceTypes.map((commerce, index) => (
-                <div
-                  key={index}
-                  className="group relative flex flex-col items-center p-8 bg-gradient-to-br from-white to-gray-50 rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2 min-w-[140px]"
-                >
-                  <div className="absolute inset-0 bg-gradient-to-br from-primary-50 to-primary-100 rounded-2xl opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
-                  <span className="relative text-6xl mb-4 transform group-hover:scale-110 transition-transform duration-300">{commerce.icon}</span>
-                  <span className="relative text-sm font-semibold text-gray-800 group-hover:text-primary-700 transition-colors duration-300">{commerce.label}</span>
-                </div>
-              ))}
+              {commerceTypes.map((commerce, index) => {
+                const Icon = commerce.icon;
+                return (
+                  <div
+                    key={index}
+                    className="group relative flex items-center justify-center p-6 bg-gradient-to-br from-white to-gray-50 rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2 w-20 h-20"
+                  >
+                    <div className="absolute inset-0 bg-gradient-to-br from-primary-50 to-primary-100 rounded-2xl opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+                    <Icon className="relative h-10 w-10 text-gray-700 group-hover:text-primary-600 transform group-hover:scale-110 transition-all duration-300" />
+                  </div>
+                );
+              })}
             </div>
           </div>
 
