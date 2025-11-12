@@ -13,7 +13,7 @@ export const Logo: React.FC<LogoProps> = ({ className = '' }) => {
         <Zap className="h-5 w-5 text-white" />
       </div>
       <span className="ml-2 text-2xl font-bold text-gray-900 [.text-white_&]:text-white">
-        {siteConfig.company.name.slice(0, 4)}<span className="text-primary-600 [.text-white_&]:text-primary-600">{siteConfig.company.name.slice(4)}</span>
+        {siteConfig.company.name.slice(0, 4)}<span className="text-primary-600 [.text-white_&]:text-primary-600">{siteConfig.company.name.slice(4, 9)}</span><span className="text-gray-900 [.text-white_&]:text-white">{siteConfig.company.name.slice(9)}</span>
       </span>
     </div>
   );
