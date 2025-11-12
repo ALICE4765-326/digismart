@@ -11,7 +11,7 @@ export const siteConfig = {
 
   // === COORDONNÉES DE CONTACT ===
   contact: {
-    email: "aliceleacosta@gmail.com",
+    email: "digismartpt@gmail.com",
     phone: "+351 923 319 672",
     address: {
       street: "Rua Cruz da Estrada, n° 481",
