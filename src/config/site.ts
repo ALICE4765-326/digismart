@@ -4,7 +4,7 @@
 export const siteConfig = {
   // === INFORMATIONS DE L'ENTREPRISE ===
   company: {
-    name: "Digismart.ai",
+    name: "Digismart.ia",
     tagline: "Solutions technologiques innovantes",
     description: "Solutions numériques sur mesure pour transformer votre quotidien professionnel",
   },
@@ -97,7 +97,7 @@ export const siteConfig = {
   // === MÉTADONNÉES SEO ===
   seo: {
     keywords: "solutions digitales, applications sur mesure, gestion réseaux sociaux, transformation digitale, productivité entreprise",
-    author: "Digismart",
+    author: "Digismart.ia",
     robots: "index, follow"
   }
 };
