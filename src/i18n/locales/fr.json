@@ -150,7 +150,7 @@
         {
           "name": "Modification ponctuelle de produit",
           "description": "Ajoute ou modifie un produit (minimum 10 actions)",
-          "price": "1€/action (prix minimum 10€)"
+          "price": "10€"
         }
       ]
     }

@@ -150,7 +150,7 @@
         {
           "name": "Modificação pontual de produto",
           "description": "Adiciona ou altera um produto (mínimo 10 ações)",
-          "price": "1€/ação (preço mínimo 10€)"
+          "price": "10€"
         }
       ]
     }
