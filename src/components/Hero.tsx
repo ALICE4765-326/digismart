@@ -7,7 +7,7 @@ export const Hero = () => {
   const { t } = useTranslation();
 
   return (
-    <div className="relative min-h-screen flex items-center bg-gradient-to-br from-primary-700 via-primary-600 to-teal-600">
+    <div className="relative min-h-screen flex items-center bg-gradient-to-br from-primary-800 via-primary-700 to-teal-700">
       {/* Contenu */}
       <div className="relative w-full">
         <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-32">
