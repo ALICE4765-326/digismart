@@ -44,33 +44,79 @@ export const Header = () => {
             </Link>
           </div>
           
-          <nav className="hidden md:flex items-center space-x-12">
-            {[
-              { to: '/', label: t('header.home') },
-              { to: '/solutions', label: t('header.solutions') },
-              { to: '/pricing', label: t('header.pricing') },
-              { to: '/contact', label: t('header.contact') }
-            ].map((item) => (
-              <Link 
-                key={item.to}
-                to={item.to}
-                className={`
-                  relative py-2
-                  text-[16px] leading-6 tracking-wide font-semibold
-                  transition-all duration-200
-                  ${isScrolled || needsWhiteBackground 
-                    ? 'text-gray-900 hover:text-primary-600' 
-                    : 'text-white hover:text-primary-200'
-                  }
-                  hover:scale-105
-                  focus:outline-none focus:ring-2 
-                  focus:ring-primary-600
-                  rounded-md
-                `}
-              >
-                {item.label}
-              </Link>
-            ))}
+          <nav className="hidden md:flex items-center space-x-8">
+            <Link
+              to="/"
+              className={`
+                relative py-2 px-2
+                text-[16px] leading-6 tracking-wide font-semibold
+                transition-all duration-200
+                ${isScrolled || needsWhiteBackground
+                  ? 'text-gray-900 hover:text-primary-600'
+                  : 'text-white hover:text-primary-200'
+                }
+                hover:scale-105
+                focus:outline-none focus:ring-2
+                focus:ring-primary-600
+                rounded-md
+              `}
+            >
+              {t('header.home')}
+            </Link>
+            <Link
+              to="/solutions"
+              className={`
+                relative py-2 px-2
+                text-[16px] leading-6 tracking-wide font-semibold
+                transition-all duration-200
+                ${isScrolled || needsWhiteBackground
+                  ? 'text-gray-900 hover:text-primary-600'
+                  : 'text-white hover:text-primary-200'
+                }
+                hover:scale-105
+                focus:outline-none focus:ring-2
+                focus:ring-primary-600
+                rounded-md
+              `}
+            >
+              {t('header.solutions')}
+            </Link>
+            <Link
+              to="/pricing"
+              className={`
+                relative py-2 px-2
+                text-[16px] leading-6 tracking-wide font-semibold
+                transition-all duration-200
+                ${isScrolled || needsWhiteBackground
+                  ? 'text-gray-900 hover:text-primary-600'
+                  : 'text-white hover:text-primary-200'
+                }
+                hover:scale-105
+                focus:outline-none focus:ring-2
+                focus:ring-primary-600
+                rounded-md
+              `}
+            >
+              {t('header.pricing')}
+            </Link>
+            <Link
+              to="/contact"
+              className={`
+                relative py-2 px-2
+                text-[16px] leading-6 tracking-wide font-semibold
+                transition-all duration-200
+                ${isScrolled || needsWhiteBackground
+                  ? 'text-gray-900 hover:text-primary-600'
+                  : 'text-white hover:text-primary-200'
+                }
+                hover:scale-105
+                focus:outline-none focus:ring-2
+                focus:ring-primary-600
+                rounded-md
+              `}
+            >
+              {t('header.contact')}
+            </Link>
             <LanguageSwitcher />
           </nav>
 
