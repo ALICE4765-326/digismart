@@ -15,9 +15,10 @@ export const Footer = () => {
   ];
 
   const links = [
-    { name: t('header.solutions'), href: '/#solutions' },
-    { name: t('header.advantages'), href: '/#advantages' },
-    { name: t('header.contact'), href: '/#contact' },
+    { name: t('header.home'), href: '/' },
+    { name: t('header.solutions'), href: '/solutions' },
+    { name: t('header.pricing'), href: '/pricing' },
+    { name: t('header.contact'), href: '/contact' },
   ];
 
   return (
@@ -37,12 +38,12 @@ export const Footer = () => {
             <ul className="mt-4 space-y-4">
               {links.map((link) => (
                 <li key={link.name}>
-                  <a
-                    href={link.href}
+                  <Link
+                    to={link.href}
                     className="text-base text-gray-300 hover:text-primary-400"
                   >
                     {link.name}
-                  </a>
+                  </Link>
                 </li>
               ))}
             </ul>
