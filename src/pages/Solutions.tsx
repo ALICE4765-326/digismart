@@ -1,6 +1,6 @@
 import React from 'react';
 import { useTranslation } from 'react-i18next';
-import { ShoppingBag, Users, TrendingUp, Video, QrCode, CreditCard, Calendar, PhoneCall } from 'lucide-react';
+import { ShoppingBag, Users, TrendingUp, Video, QrCode, CreditCard, Calendar, PhoneCall, MapPin } from 'lucide-react';
 
 export const Solutions = () => {
   const { t } = useTranslation();
@@ -23,6 +23,7 @@ export const Solutions = () => {
     { icon: CreditCard, titleKey: 'solutions.futureProjects.payment.title', descKey: 'solutions.futureProjects.payment.description' },
     { icon: Calendar, titleKey: 'solutions.futureProjects.booking.title', descKey: 'solutions.futureProjects.booking.description' },
     { icon: PhoneCall, titleKey: 'solutions.futureProjects.aiPhone.title', descKey: 'solutions.futureProjects.aiPhone.description' },
+    { icon: MapPin, titleKey: 'solutions.futureProjects.realTimeTracking.title', descKey: 'solutions.futureProjects.realTimeTracking.description' },
   ];
 
   return (
