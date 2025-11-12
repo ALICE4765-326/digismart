@@ -13,7 +13,7 @@ export const Header = () => {
   const isScrolled = useScrollPosition();
   const location = useLocation();
 
-  const needsWhiteBackground = ['/contact', '/pricing'].includes(location.pathname);
+  const needsWhiteBackground = ['/contact', '/pricing', '/solutions'].includes(location.pathname);
 
   return (
     <header 
