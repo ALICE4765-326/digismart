@@ -6,10 +6,10 @@ export const Solutions = () => {
   const { t } = useTranslation();
 
   const commerceTypes = [
-    { icon: '🍕', label: 'Restaurants' },
-    { icon: '🥐', label: 'Boulangeries' },
-    { icon: '🌸', label: 'Fleuristes' },
-    { icon: '🍷', label: 'Cavistes' },
+    { icon: '🍽️', label: 'Restaurants' },
+    { icon: '🥖', label: 'Boulangeries' },
+    { icon: '💐', label: 'Fleuristes' },
+    { icon: '🍾', label: 'Cavistes' },
   ];
 
   const videoCards = [
@@ -50,14 +50,15 @@ export const Solutions = () => {
             </p>
 
             {/* Commerce Icons */}
-            <div className="flex flex-wrap justify-center gap-8 mb-16">
+            <div className="flex flex-wrap justify-center gap-6 mb-16">
               {commerceTypes.map((commerce, index) => (
                 <div
                   key={index}
-                  className="flex flex-col items-center p-6 bg-white rounded-xl shadow-md hover:shadow-lg transition-shadow duration-300"
+                  className="group relative flex flex-col items-center p-8 bg-gradient-to-br from-white to-gray-50 rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2 min-w-[140px]"
                 >
-                  <span className="text-5xl mb-3">{commerce.icon}</span>
-                  <span className="text-sm font-medium text-gray-700">{commerce.label}</span>
+                  <div className="absolute inset-0 bg-gradient-to-br from-primary-50 to-primary-100 rounded-2xl opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+                  <span className="relative text-6xl mb-4 transform group-hover:scale-110 transition-transform duration-300">{commerce.icon}</span>
+                  <span className="relative text-sm font-semibold text-gray-800 group-hover:text-primary-700 transition-colors duration-300">{commerce.label}</span>
                 </div>
               ))}
             </div>
