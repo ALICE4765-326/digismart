@@ -57,9 +57,10 @@
       "testDescription": "Escaneie o QR code abaixo para descobrir um aplicativo de exemplo e testar a experiência completa.",
       "stepsTitle": "Etapas de instalação e teste",
       "steps": {
-        "step1": "Escaneie o QR code com seu smartphone",
-        "step2": "Baixe e instale o aplicativo de teste",
-        "step3": "Explore todas as funcionalidades em situação real"
+        "step1": "Aponte a câmera para o código QR, explore e navegue no site. Para testar a experiência de pedidos, crie sua conta.",
+        "step2": "Você acabou de acessar o espaço do cliente: explore as funcionalidades e faça um pedido de teste. Para verificar o estado do pedido no espaço de gestão, passe ao ponto 3.",
+        "step3": "Desconecte-se, digite o identificador e a senha que você registrou anteriormente, depois clique no botão \"Espaço de gestão\" para acompanhar os pedidos, criar novos produtos, novas categorias e gerenciar os dados da sua empresa.",
+        "step4": "Para acessar a página \"Admin\", desconecte-se e digite o mesmo identificador e senha. Em seguida, clique no botão \"Admin\" para consultar o resumo financeiro dos últimos 7 dias."
       }
     },
     "futureProjects": {

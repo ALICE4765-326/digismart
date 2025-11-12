@@ -117,18 +117,22 @@ export const Solutions = () => {
             <h3 className="text-xl font-semibold text-gray-900 mb-4">
               {t('solutions.appTakeAway.stepsTitle')}
             </h3>
-            <div className="space-y-3 text-gray-700">
+            <div className="space-y-4 text-gray-700">
               <p className="flex items-start">
-                <span className="font-bold text-primary-600 mr-3">1.</span>
+                <span className="font-bold text-primary-600 mr-3 flex-shrink-0">1.</span>
                 <span>{t('solutions.appTakeAway.steps.step1')}</span>
               </p>
               <p className="flex items-start">
-                <span className="font-bold text-primary-600 mr-3">2.</span>
+                <span className="font-bold text-primary-600 mr-3 flex-shrink-0">2.</span>
                 <span>{t('solutions.appTakeAway.steps.step2')}</span>
               </p>
               <p className="flex items-start">
-                <span className="font-bold text-primary-600 mr-3">3.</span>
+                <span className="font-bold text-primary-600 mr-3 flex-shrink-0">3.</span>
                 <span>{t('solutions.appTakeAway.steps.step3')}</span>
+              </p>
+              <p className="flex items-start">
+                <span className="font-bold text-primary-600 mr-3 flex-shrink-0">4.</span>
+                <span>{t('solutions.appTakeAway.steps.step4')}</span>
               </p>
             </div>
           </div>

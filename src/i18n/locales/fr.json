@@ -57,9 +57,10 @@
       "testDescription": "Scannez le QR code ci-dessous pour découvrir une application type et tester l'expérience complète.",
       "stepsTitle": "Étapes d'installation et de test",
       "steps": {
-        "step1": "Scannez le QR code avec votre smartphone",
-        "step2": "Téléchargez et installez l'application de test",
-        "step3": "Explorez toutes les fonctionnalités en situation réelle"
+        "step1": "Pointez la caméra vers le code QR, explorez et naviguez sur le site. Pour tester l'expérience de commande, créez votre compte.",
+        "step2": "Vous venez d'accéder à l'espace client : explorez les fonctionnalités et passez une commande test. Pour vérifier l'état de la commande dans l'espace de gestion, passez au point 3.",
+        "step3": "Déconnectez-vous, saisissez l'identifiant et le mot de passe que vous avez enregistrés précédemment, puis cliquez sur le bouton « Espace gestion » pour suivre les commandes, créer de nouveaux produits, de nouvelles catégories et gérer les données de votre entreprise.",
+        "step4": "Pour accéder à la page \"Admin\", déconnectez-vous et saisissez le même identifiant et le même mot de passe. Ensuite, cliquez sur le bouton \"Admin\" pour consulter le résumé financier des 7 derniers jours."
       }
     },
     "futureProjects": {
