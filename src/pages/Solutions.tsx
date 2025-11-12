@@ -20,9 +20,9 @@ export const Solutions = () => {
   ];
 
   const futureProjects = [
-    { icon: CreditCard, titleKey: 'solutions.futureProjects.payment.title' },
-    { icon: Calendar, titleKey: 'solutions.futureProjects.booking.title' },
-    { icon: PhoneCall, titleKey: 'solutions.futureProjects.aiPhone.title' },
+    { icon: CreditCard, titleKey: 'solutions.futureProjects.payment.title', descKey: 'solutions.futureProjects.payment.description' },
+    { icon: Calendar, titleKey: 'solutions.futureProjects.booking.title', descKey: 'solutions.futureProjects.booking.description' },
+    { icon: PhoneCall, titleKey: 'solutions.futureProjects.aiPhone.title', descKey: 'solutions.futureProjects.aiPhone.description' },
   ];
 
   return (
@@ -150,9 +150,12 @@ export const Solutions = () => {
                       <Icon className="h-10 w-10 text-primary-600" />
                     </div>
                   </div>
-                  <h3 className="text-xl font-bold text-gray-900 text-center">
+                  <h3 className="text-xl font-bold text-gray-900 text-center mb-3">
                     {t(project.titleKey)}
                   </h3>
+                  <p className="text-gray-600 text-center">
+                    {t(project.descKey)}
+                  </p>
                 </div>
               );
             })}

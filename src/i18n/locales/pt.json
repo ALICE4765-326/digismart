@@ -65,13 +65,16 @@
     "futureProjects": {
       "title": "Nossos Desenvolvimentos Futuros",
       "payment": {
-        "title": "Pagamento integrado na aplicação de encomendas"
+        "title": "Pagamento integrado na aplicação de encomendas",
+        "description": "Solução de pagamento segura diretamente no aplicativo"
       },
       "booking": {
-        "title": "Aplicativo de agendamento"
+        "title": "Aplicativo de agendamento",
+        "description": "Gerencie suas reservas e compromissos com facilidade"
       },
       "aiPhone": {
-        "title": "IA de pedidos por telefone"
+        "title": "IA de pedidos por telefone",
+        "description": "Inteligência artificial para gerenciar seus pedidos por telefone"
       },
       "cta": "Essas inovações estão em desenvolvimento. Se está interessado em alguma dessas soluções futuras, entre em contato para discutir!"
     }
