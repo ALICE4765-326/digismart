@@ -182,7 +182,7 @@
       }
     },
     "additionalServices": {
-      "title": "Serviços Adicionais",
+      "title": "Serviços adicionais",
       "services": [
         {
           "name": "Criação do menu inicial",
