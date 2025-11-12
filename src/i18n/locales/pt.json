@@ -193,6 +193,11 @@
           "name": "Modificação pontual de produto",
           "description": "Adiciona ou altera um produto (mínimo 10 ações)",
           "price": "10€"
+        },
+        {
+          "name": "Opção Entrega",
+          "description": "Para gerir as entregas",
+          "price": "5,90€/mês"
         }
       ]
     }
