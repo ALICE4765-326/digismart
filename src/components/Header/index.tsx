@@ -1,12 +1,14 @@
 import React, { useState } from 'react';
 import { Menu, X } from 'lucide-react';
 import { Link, useLocation } from 'react-router-dom';
+import { useTranslation } from 'react-i18next';
 import { Logo } from '../Logo';
 import { MobileMenu } from './MobileMenu';
 import { useScrollPosition } from '../../hooks/useScrollPosition';
 import { LanguageSwitcher } from '../LanguageSwitcher';
 
 export const Header = () => {
+  const { t } = useTranslation();
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const isScrolled = useScrollPosition();
   const location = useLocation();
@@ -44,9 +46,9 @@ export const Header = () => {
           
           <nav className="hidden md:flex items-center space-x-12">
             {[
-              { to: '/', label: 'Solutions' },
-              { to: '/pricing', label: 'Tarifs' },
-              { to: '/contact', label: 'Contact' }
+              { to: '/', label: t('header.solutions') },
+              { to: '/pricing', label: t('header.pricing') },
+              { to: '/contact', label: t('header.contact') }
             ].map((item) => (
               <Link 
                 key={item.to}
