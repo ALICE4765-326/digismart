@@ -54,6 +54,7 @@
         "delivery": "Opção de entrega — Serviço opcional"
       },
       "testTitle": "Teste o AppTakeAway agora!",
+      "testDescription": "Escaneie o QR code abaixo para descobrir um aplicativo de exemplo e testar a experiência completa.",
       "stepsTitle": "Etapas para testar",
       "steps": {
         "step1": "Aponte a câmera para o código QR, explore e navegue no site. Para testar a experiência de pedidos, crie sua conta.",
@@ -63,7 +64,7 @@
       }
     },
     "futureProjects": {
-      "title": "Nossos Desenvolvimentos Futuros",
+      "title": "Nossos desenvolvimentos futuros",
       "payment": {
         "title": "Pagamento integrado na aplicação de encomendas",
         "description": "Solução de pagamento segura diretamente no aplicativo"

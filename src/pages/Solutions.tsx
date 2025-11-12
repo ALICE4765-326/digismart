@@ -99,9 +99,19 @@ export const Solutions = () => {
       {/* Test Section */}
       <div className="py-20 bg-white">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h2 className="text-3xl font-bold text-gray-900 mb-12">
+          <h2 className="text-3xl font-bold text-gray-900 mb-6">
             {t('solutions.appTakeAway.testTitle')}
           </h2>
+          <p className="text-lg text-gray-700 mb-12">
+            {t('solutions.appTakeAway.testDescription')}
+          </p>
+
+          {/* QR Code Placeholder */}
+          <div className="inline-block bg-gray-50 rounded-2xl p-8 shadow-lg mb-8">
+            <div className="w-64 h-64 bg-white rounded-xl flex items-center justify-center border-2 border-gray-200">
+              <QrCode className="h-32 w-32 text-gray-300" />
+            </div>
+          </div>
 
           {/* Installation Steps Placeholder */}
           <div className="bg-primary-50 rounded-xl p-8 text-left max-w-2xl mx-auto">
