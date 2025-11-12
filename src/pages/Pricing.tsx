@@ -7,7 +7,7 @@ export const Pricing = () => {
   const { t } = useTranslation();
 
   return (
-    <div className="min-h-screen bg-gradient-to-b from-white to-gray-50 pt-32">
+    <div className="min-h-screen bg-gradient-to-b from-gray-50 to-gray-100 pt-32">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
           <h1 className="text-5xl font-extrabold text-gray-900 tracking-tight mb-4">

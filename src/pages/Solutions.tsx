@@ -29,7 +29,7 @@ export const Solutions = () => {
   return (
     <div className="min-h-screen bg-white">
       {/* Hero Section */}
-      <div className="relative bg-gradient-to-br from-primary-700 via-primary-600 to-teal-600 py-24">
+      <div className="relative bg-gradient-to-br from-primary-800 via-primary-700 to-teal-700 py-24">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center">
             <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-white mb-6">
