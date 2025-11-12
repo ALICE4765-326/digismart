@@ -20,9 +20,9 @@ export const Solutions = () => {
   ];
 
   const futureProjects = [
-    { icon: CreditCard, titleKey: 'solutions.futureProjects.payment.title', descKey: 'solutions.futureProjects.payment.description' },
-    { icon: Calendar, titleKey: 'solutions.futureProjects.booking.title', descKey: 'solutions.futureProjects.booking.description' },
-    { icon: PhoneCall, titleKey: 'solutions.futureProjects.aiPhone.title', descKey: 'solutions.futureProjects.aiPhone.description' },
+    { icon: CreditCard, titleKey: 'solutions.futureProjects.payment.title' },
+    { icon: Calendar, titleKey: 'solutions.futureProjects.booking.title' },
+    { icon: PhoneCall, titleKey: 'solutions.futureProjects.aiPhone.title' },
   ];
 
   return (
@@ -99,19 +99,9 @@ export const Solutions = () => {
       {/* Test Section */}
       <div className="py-20 bg-white">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h2 className="text-3xl font-bold text-gray-900 mb-6">
+          <h2 className="text-3xl font-bold text-gray-900 mb-12">
             {t('solutions.appTakeAway.testTitle')}
           </h2>
-          <p className="text-lg text-gray-700 mb-12">
-            {t('solutions.appTakeAway.testDescription')}
-          </p>
-
-          {/* QR Code Placeholder */}
-          <div className="inline-block bg-gray-50 rounded-2xl p-8 shadow-lg mb-8">
-            <div className="w-64 h-64 bg-white rounded-xl flex items-center justify-center border-2 border-gray-200">
-              <QrCode className="h-32 w-32 text-gray-300" />
-            </div>
-          </div>
 
           {/* Installation Steps Placeholder */}
           <div className="bg-primary-50 rounded-xl p-8 text-left max-w-2xl mx-auto">
@@ -160,12 +150,9 @@ export const Solutions = () => {
                       <Icon className="h-10 w-10 text-primary-600" />
                     </div>
                   </div>
-                  <h3 className="text-xl font-bold text-gray-900 text-center mb-3">
+                  <h3 className="text-xl font-bold text-gray-900 text-center">
                     {t(project.titleKey)}
                   </h3>
-                  <p className="text-gray-600 text-center">
-                    {t(project.descKey)}
-                  </p>
                 </div>
               );
             })}
