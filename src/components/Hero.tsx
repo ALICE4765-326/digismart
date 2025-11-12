@@ -47,7 +47,7 @@ export const Hero = () => {
                   });
                 }
               }}
-              className="inline-flex items-center justify-center px-8 py-3.5 text-base font-medium rounded-lg text-white bg-gray-800 hover:bg-gray-700 transition-all duration-300 transform hover:translate-y-[-2px]"
+              className="inline-flex items-center justify-center px-8 py-3.5 text-base font-medium rounded-lg text-gray-900 bg-white hover:bg-gray-50 transition-all duration-300 transform hover:translate-y-[-2px] shadow-lg"
             >
               {t('hero.cta.secondary')}
             </button>
@@ -61,11 +61,11 @@ export const Hero = () => {
             ].map((benefit) => (
               <div 
                 key={benefit}
-                className="flex items-center justify-center px-6 py-4 rounded-lg bg-gray-800 text-white text-sm font-medium transition-all duration-300 hover:bg-gray-700 hover:translate-y-[-2px] group"
+                className="flex items-center justify-center px-6 py-4 rounded-lg bg-white text-gray-900 text-sm font-medium transition-all duration-300 hover:bg-gray-50 hover:translate-y-[-2px] shadow-md group"
               >
                 <span className="relative">
                   {benefit}
-                  <span className="absolute inset-x-0 -bottom-px h-px bg-gradient-to-r from-transparent via-primary-400 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
+                  <span className="absolute inset-x-0 -bottom-px h-px bg-gradient-to-r from-transparent via-primary-600 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
                 </span>
               </div>
             ))}
