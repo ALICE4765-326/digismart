@@ -63,7 +63,7 @@ export const siteConfig = {
 
   // === GOOGLE MAPS ===
   maps: {
-    embedUrl: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3003.123456789!2d-8.123456789!3d41.123456789!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNDHCsDA3JzI0LjQiTiA4wrAwNycyNC40Ilc!5e0!3m2!1spt!2spt!4v1642678901234!5m2!1spt!2spt"
+    embedUrl: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2994.879724658145!2d-8.490625584533958!3d41.32788317927065!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd2465b0b0b0b0b0b%3A0x0!2zNDHCsDE5JzQwLjQiTiA4wrAyOSczMy41Ilc!5e0!3m2!1spt!2spt!4v1642678901234!5m2!1spt!2spt"
   },
 
   // === TARIFICATION ===
