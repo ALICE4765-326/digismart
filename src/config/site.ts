@@ -63,7 +63,7 @@ export const siteConfig = {
 
   // === GOOGLE MAPS ===
   maps: {
-    embedUrl: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2994.879724658145!2d-8.490625584533958!3d41.32788317927065!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd2465b0b0b0b0b0b%3A0x0!2zNDHCsDE5JzQwLjQiTiA4wrAyOSczMy41Ilc!5e0!3m2!1spt!2spt!4v1642678901234!5m2!1spt!2spt"
+    embedUrl: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2995.4803939246864!2d-8.491869823799858!3d41.31867867131115!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd2465aebfa2aaab%3A0x1234567890abcdef!2sRua%20Cruz%20da%20Estrada%20481%2C%204765-326%20Oliveira%20Santa%20Maria!5e0!3m2!1sen!2spt!4v1642678901234!5m2!1sen!2spt"
   },
 
   // === TARIFICATION ===
