@@ -12,7 +12,7 @@ export const LanguageMenu: React.FC<LanguageMenuProps> = ({
   onLanguageSelect,
 }) => {
   return (
-    <div className="py-1 bg-white rounded-lg shadow-lg ring-1 ring-black ring-opacity-5">
+    <div className="py-1 bg-white shadow-lg ring-1 ring-black ring-opacity-5">
       {(Object.keys(SUPPORTED_LANGUAGES) as SupportedLanguage[]).map((lang) => (
         <LanguageButton
           key={lang}

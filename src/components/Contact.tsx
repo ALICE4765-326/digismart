@@ -23,7 +23,7 @@ export const Contact = () => {
         
         <div className="mt-16 grid grid-cols-1 lg:grid-cols-2 gap-8">
           {/* Carte Google Maps */}
-          <div className="bg-white rounded-xl shadow-lg overflow-hidden">
+          <div className="bg-white shadow-lg overflow-hidden">
             <div className="aspect-w-16 aspect-h-12 h-96">
               <iframe
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3003.123456789!2d-8.123456789!3d41.123456789!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNDHCsDA3JzI0LjQiTiA4wrAwNycyNC40Ilc!5e0!3m2!1spt!2spt!4v1642678901234!5m2!1spt!2spt"
@@ -34,14 +34,14 @@ export const Contact = () => {
                 loading="lazy"
                 referrerPolicy="no-referrer-when-downgrade"
                 title="Localisation Digismart"
-                className="rounded-xl"
+                className=""
               />
             </div>
           </div>
           
           {/* Informations de contact */}
           <div className="space-y-6">
-            <div className="bg-white rounded-xl shadow-lg p-8">
+            <div className="bg-white shadow-lg p-8">
               <h3 className="text-xl font-semibold text-gray-900 mb-6">{t('contact.info.title')}</h3>
               <div className="space-y-4">
                 <div className="flex items-center">
@@ -80,7 +80,7 @@ export const Contact = () => {
             </div>
             
             {/* Horaires d'ouverture */}
-            <div className="bg-white rounded-xl shadow-lg p-8">
+            <div className="bg-white shadow-lg p-8">
               <h3 className="text-xl font-semibold text-gray-900 mb-6 flex items-center">
                 <Clock className="h-6 w-6 text-primary-600 mr-2" />
                 Horaires d'ouverture
@@ -102,7 +102,7 @@ export const Contact = () => {
             </div>
             
             {/* Bouton de contact */}
-            <div className="bg-gradient-to-r from-primary-600 to-primary-700 rounded-xl shadow-lg p-8 text-white">
+            <div className="bg-gradient-to-r from-primary-600 to-primary-700 shadow-lg p-8 text-white">
               <h3 className="text-xl font-semibold mb-4">Prêt à commencer ?</h3>
               <p className="text-primary-100 mb-6">
                 Contactez-nous dès aujourd'hui pour discuter de votre projet et découvrir comment nous pouvons vous aider.
@@ -110,13 +110,13 @@ export const Contact = () => {
               <div className="flex flex-col sm:flex-row gap-3">
                 <a
                   href="mailto:aliceleacosta@gmail.com"
-                  className="flex-1 bg-white text-primary-600 px-6 py-3 rounded-lg font-medium text-center hover:bg-gray-50 transition-colors"
+                  className="flex-1 bg-white text-primary-600 px-6 py-3 font-medium text-center hover:bg-gray-50 transition-colors"
                 >
                   Envoyer un email
                 </a>
                 <a
                   href="tel:+351923319672"
-                  className="flex-1 bg-primary-800 text-white px-6 py-3 rounded-lg font-medium text-center hover:bg-primary-900 transition-colors"
+                  className="flex-1 bg-primary-800 text-white px-6 py-3 font-medium text-center hover:bg-primary-900 transition-colors"
                 >
                   Appeler maintenant
                 </a>

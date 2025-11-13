@@ -55,10 +55,10 @@ export const Features = () => {
         <div className="mt-20">
           <div className="grid grid-cols-1 gap-12 sm:grid-cols-2">
             {features.map((feature) => (
-              <div key={feature.name} className="bg-white rounded-lg p-6 shadow-sm hover:shadow-md transition-shadow">
+              <div key={feature.name} className="bg-white p-6 shadow-sm">
                 <div className="flex items-start">
                   <div className="flex-shrink-0">
-                    <div className="flex items-center justify-center h-12 w-12 rounded-md bg-primary-600 text-white">
+                    <div className="flex items-center justify-center h-12 w-12 bg-primary-600 text-white">
                       <feature.icon className="h-6 w-6" aria-hidden="true" />
                     </div>
                   </div>

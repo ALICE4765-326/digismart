@@ -8,7 +8,7 @@ export const Terms = () => {
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 pb-24">
         {/* En-tête */}
         <div className="text-center mb-12">
-          <div className="inline-flex items-center justify-center h-16 w-16 rounded-full bg-primary-100 mb-4">
+          <div className="inline-flex items-center justify-center h-16 w-16 bg-primary-100 mb-4">
             <ScrollText className="h-8 w-8 text-primary-600" />
           </div>
           <h1 className="text-4xl font-extrabold text-gray-900">
@@ -20,7 +20,7 @@ export const Terms = () => {
         </div>
 
         {/* Informations de l'entreprise */}
-        <div className="bg-white rounded-xl shadow-sm p-6 mb-8">
+        <div className="bg-white shadow-sm p-6 mb-8">
           <div className="flex items-center mb-4">
             <Building className="h-6 w-6 text-primary-600 mr-2" />
             <h2 className="text-xl font-semibold text-gray-900">{siteConfig.company.name}</h2>

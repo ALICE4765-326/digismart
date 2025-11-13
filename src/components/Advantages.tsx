@@ -22,7 +22,7 @@ export const Advantages = () => {
 
         <div className="mt-16 grid grid-cols-1 gap-8 md:grid-cols-3">
           {items.map((item: { title: string; description: string }, index: number) => (
-            <div key={index} className="relative bg-white p-8 rounded-xl shadow-lg hover:shadow-xl transition-shadow">
+            <div key={index} className="relative bg-white p-8 shadow-lg">
               <h3 className="mt-4 text-lg font-semibold text-gray-900">
                 {item.title}
               </h3>

@@ -35,7 +35,7 @@ export const CaseStudies = () => {
 
         <div className="mt-16 space-y-8">
           {caseStudies.map((study: CaseStudy, index: number) => (
-            <div key={index} className="bg-white rounded-2xl shadow-xl overflow-hidden lg:grid lg:grid-cols-2 lg:gap-4">
+            <div key={index} className="bg-white shadow-xl overflow-hidden lg:grid lg:grid-cols-2 lg:gap-4">
               <div className="pt-10 pb-12 px-6 sm:pt-16 sm:px-16 lg:py-16 lg:pr-0 xl:py-20 xl:px-20">
                 <div className="lg:self-center">
                   <h3 className="text-2xl font-bold text-gray-900">{study.name}</h3>
@@ -72,7 +72,7 @@ export const CaseStudies = () => {
                         e.preventDefault();
                         setIsVideoModalOpen(true);
                       }}
-                      className="inline-flex items-center px-6 py-3 border border-transparent text-base font-medium rounded-md shadow-sm text-white bg-primary-600 hover:bg-primary-700"
+                      className="inline-flex items-center px-6 py-3 border border-transparent text-base font-medium shadow-sm text-white bg-primary-600 hover:bg-primary-700"
                     >
                       {t('testimonials.cta')}
                       <Play className="ml-2 h-5 w-5" />

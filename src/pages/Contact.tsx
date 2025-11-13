@@ -20,7 +20,7 @@ export const Contact = () => {
         
         <div className="mt-16 grid grid-cols-1 lg:grid-cols-2 gap-8">
           {/* Carte Google Maps */}
-          <div className="bg-white rounded-xl shadow-lg overflow-hidden">
+          <div className="bg-white shadow-lg overflow-hidden">
             <div className="aspect-w-16 aspect-h-12 h-96">
               <iframe
                 src={siteConfig.maps.embedUrl}
@@ -31,14 +31,14 @@ export const Contact = () => {
                 loading="lazy"
                 referrerPolicy="no-referrer-when-downgrade"
                 title="Localisation Digismart"
-                className="rounded-xl"
+                className=""
               />
             </div>
           </div>
           
           {/* Informations de contact */}
           <div className="space-y-6">
-            <div className="bg-white rounded-xl shadow-lg p-8">
+            <div className="bg-white shadow-lg p-8">
               <h3 className="text-xl font-semibold text-gray-900 mb-6">{t('contact.info.title')}</h3>
               <div className="space-y-4">
                 <div className="flex items-center">
