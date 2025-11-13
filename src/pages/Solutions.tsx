@@ -58,10 +58,9 @@ export const Solutions = () => {
                 return (
                   <div
                     key={index}
-                    className="group relative flex items-center justify-center p-6 bg-gradient-to-br from-white to-gray-50 rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2 w-20 h-20"
+                    className="relative flex items-center justify-center p-6 bg-white shadow-lg w-20 h-20"
                   >
-                    <div className="absolute inset-0 bg-gradient-to-br from-primary-50 to-primary-100 rounded-2xl opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
-                    <Icon className="relative h-10 w-10 text-gray-700 group-hover:text-primary-600 transform group-hover:scale-110 transition-all duration-300" />
+                    <Icon className="h-10 w-10 text-gray-700" />
                   </div>
                 );
               })}
@@ -79,7 +78,7 @@ export const Solutions = () => {
                 return (
                   <div
                     key={index}
-                    className="bg-white rounded-xl shadow-md p-8 hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1"
+                    className="bg-white shadow-md p-8"
                   >
                     <div className="flex justify-center mb-6">
                       <div className="p-4 bg-primary-100 rounded-full">
@@ -111,14 +110,14 @@ export const Solutions = () => {
           </p>
 
           {/* QR Code Placeholder */}
-          <div className="inline-block bg-gray-50 rounded-2xl p-8 shadow-lg mb-8">
-            <div className="w-64 h-64 bg-white rounded-xl flex items-center justify-center border-2 border-gray-200">
+          <div className="inline-block bg-gray-50 p-8 shadow-lg mb-8">
+            <div className="w-64 h-64 bg-white flex items-center justify-center border-2 border-gray-200">
               <QrCode className="h-32 w-32 text-gray-300" />
             </div>
           </div>
 
           {/* Installation Steps Placeholder */}
-          <div className="bg-primary-50 rounded-xl p-8 text-left max-w-2xl mx-auto">
+          <div className="bg-primary-50 p-8 text-left max-w-2xl mx-auto">
             <h3 className="text-xl font-semibold text-gray-900 mb-4">
               {t('solutions.appTakeAway.stepsTitle')}
             </h3>
@@ -157,7 +156,7 @@ export const Solutions = () => {
               return (
                 <div
                   key={index}
-                  className="bg-white rounded-xl shadow-md p-8 hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1"
+                  className="bg-white shadow-md p-8"
                 >
                   <div className="flex justify-center mb-6">
                     <div className="p-4 bg-primary-100 rounded-full">
@@ -175,7 +174,7 @@ export const Solutions = () => {
             })}
           </div>
 
-          <div className="bg-primary-50 rounded-xl p-8 text-center max-w-3xl mx-auto">
+          <div className="bg-primary-50 p-8 text-center max-w-3xl mx-auto">
             <p className="text-lg text-gray-700">
               {t('solutions.futureProjects.cta')}
             </p>

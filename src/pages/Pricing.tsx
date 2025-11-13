@@ -16,7 +16,7 @@ export const Pricing = () => {
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-16">
-          <div className="bg-white rounded-2xl shadow-lg p-8 border-2 border-green-200 transform hover:scale-105 transition-transform duration-300">
+          <div className="bg-white shadow-lg p-8 border-2 border-green-200">
             <div className="flex items-center justify-between mb-6">
               <div className="h-12 w-12 rounded-xl bg-green-100 flex items-center justify-center">
                 <Gift className="h-6 w-6 text-green-600" />
@@ -53,7 +53,7 @@ export const Pricing = () => {
             </Link>
           </div>
 
-          <div className="bg-gradient-to-br from-teal-500 to-teal-600 rounded-2xl shadow-xl p-8 transform hover:scale-105 transition-transform duration-300 border-2 border-teal-400">
+          <div className="bg-gradient-to-br from-teal-500 to-teal-600 shadow-xl p-8 border-2 border-teal-400">
             <div className="flex items-center justify-between mb-6">
               <div className="h-12 w-12 rounded-xl bg-white/20 flex items-center justify-center">
                 <Star className="h-6 w-6 text-white" />
@@ -90,7 +90,7 @@ export const Pricing = () => {
             </Link>
           </div>
 
-          <div className="bg-gradient-to-br from-emerald-600 to-emerald-700 rounded-2xl shadow-xl p-8 transform hover:scale-105 transition-transform duration-300 border-2 border-emerald-500">
+          <div className="bg-gradient-to-br from-emerald-600 to-emerald-700 shadow-xl p-8 border-2 border-emerald-500">
             <div className="flex items-center justify-between mb-6">
               <div className="h-12 w-12 rounded-xl bg-white/20 flex items-center justify-center">
                 <Crown className="h-6 w-6 text-white" />
@@ -128,7 +128,7 @@ export const Pricing = () => {
           </div>
         </div>
 
-        <div className="bg-white rounded-2xl shadow-xl p-8 mb-24">
+        <div className="bg-white shadow-xl p-8 mb-24">
           <div className="flex items-center mb-6">
             <div className="h-12 w-12 rounded-xl bg-primary-100 flex items-center justify-center mr-4">
               <Plus className="h-6 w-6 text-primary-600" />
@@ -137,7 +137,7 @@ export const Pricing = () => {
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             {t('pricing.additionalServices.services', { returnObjects: true }).map((service: { name: string; description: string; price: string }, index: number) => (
-              <div key={index} className="border border-gray-200 rounded-xl p-6 hover:border-primary-300 transition-colors">
+              <div key={index} className="border border-gray-200 p-6">
                 <div className="flex items-center justify-between mb-2">
                   <h3 className="text-lg font-semibold text-gray-900">{service.name}</h3>
                   <span className="text-lg font-bold text-primary-600">{service.price}</span>
