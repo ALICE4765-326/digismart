@@ -21,7 +21,7 @@ export const PromoHeader = () => {
           <div>
             <a
               href="#contact"
-              className="flex items-center justify-center px-3 py-1 border border-transparent shadow-sm text-xs font-medium text-primary-600 bg-white hover:bg-primary-50 transition-colors"
+              className="flex items-center justify-center px-3 py-1 border border-transparent rounded-md shadow-sm text-xs font-medium text-primary-600 bg-white hover:bg-primary-50 transition-colors"
             >
               {t('promo.cta')}
             </a>

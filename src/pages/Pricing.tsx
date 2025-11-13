@@ -47,7 +47,7 @@ export const Pricing = () => {
 
             <Link
               to="/contact"
-              className="w-full inline-flex items-center justify-center px-6 py-3 border-2 border-green-600 text-base font-medium rounded-xl text-green-600 hover:bg-green-50 transition-colors duration-300"
+              className="w-full inline-flex items-center justify-center px-6 py-3 border-2 border-green-600 text-base font-medium rounded-lg text-green-600 hover:bg-green-50 transition-colors duration-300"
             >
               {t('pricing.contactButton')}
             </Link>
@@ -84,7 +84,7 @@ export const Pricing = () => {
 
             <Link
               to="/contact"
-              className="w-full inline-flex items-center justify-center px-6 py-3 border-2 border-white text-base font-medium rounded-xl text-white hover:bg-white/10 transition-colors duration-300"
+              className="w-full inline-flex items-center justify-center px-6 py-3 border-2 border-white text-base font-medium rounded-lg text-white hover:bg-white/10 transition-colors duration-300"
             >
               {t('pricing.contactButton')}
             </Link>
@@ -121,7 +121,7 @@ export const Pricing = () => {
 
             <Link
               to="/contact"
-              className="w-full inline-flex items-center justify-center px-6 py-3 border-2 border-white text-base font-medium rounded-xl text-white hover:bg-white/10 transition-colors duration-300"
+              className="w-full inline-flex items-center justify-center px-6 py-3 border-2 border-white text-base font-medium rounded-lg text-white hover:bg-white/10 transition-colors duration-300"
             >
               {t('pricing.contactButton')}
             </Link>

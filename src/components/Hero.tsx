@@ -27,7 +27,7 @@ export const Hero = () => {
           <div className="mt-12 flex flex-col sm:flex-row justify-center gap-4 sm:gap-6">
             <Link
               to="/solutions"
-              className="group inline-flex items-center justify-center px-8 py-3.5 text-base font-medium text-white bg-primary-600 hover:bg-primary-500 transition-colors duration-300 shadow-lg"
+              className="group inline-flex items-center justify-center px-8 py-3.5 text-base font-medium rounded-lg text-white bg-primary-600 hover:bg-primary-500 transition-colors duration-300 shadow-lg"
             >
               {t('hero.cta.primary')}
               <ArrowRight className="ml-2 h-5 w-5 transition-transform duration-300 group-hover:translate-x-1" />
@@ -47,7 +47,7 @@ export const Hero = () => {
                   });
                 }
               }}
-              className="inline-flex items-center justify-center px-8 py-3.5 text-base font-medium text-gray-900 bg-white hover:bg-gray-50 transition-colors duration-300 shadow-lg"
+              className="inline-flex items-center justify-center px-8 py-3.5 text-base font-medium rounded-lg text-gray-900 bg-white hover:bg-gray-50 transition-colors duration-300 shadow-lg"
             >
               {t('hero.cta.secondary')}
             </button>

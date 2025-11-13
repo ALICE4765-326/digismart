@@ -29,7 +29,7 @@ export const VideoModal: React.FC<VideoModalProps> = ({
         {/* Close button */}
         <button
           onClick={onClose}
-          className="absolute top-4 right-4 z-10 p-2 bg-black bg-opacity-50 hover:bg-opacity-70 transition-colors"
+          className="absolute top-4 right-4 z-10 p-2 bg-black bg-opacity-50 hover:bg-opacity-70 rounded-full transition-colors"
           aria-label="Fermer la vidéo"
         >
           <X className="h-5 w-5 text-white" />

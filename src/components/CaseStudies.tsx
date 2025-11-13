@@ -72,7 +72,7 @@ export const CaseStudies = () => {
                         e.preventDefault();
                         setIsVideoModalOpen(true);
                       }}
-                      className="inline-flex items-center px-6 py-3 border border-transparent text-base font-medium shadow-sm text-white bg-primary-600 hover:bg-primary-700"
+                      className="inline-flex items-center px-6 py-3 border border-transparent text-base font-medium rounded-md shadow-sm text-white bg-primary-600 hover:bg-primary-700"
                     >
                       {t('testimonials.cta')}
                       <Play className="ml-2 h-5 w-5" />

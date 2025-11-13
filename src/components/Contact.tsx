@@ -110,13 +110,13 @@ export const Contact = () => {
               <div className="flex flex-col sm:flex-row gap-3">
                 <a
                   href="mailto:aliceleacosta@gmail.com"
-                  className="flex-1 bg-white text-primary-600 px-6 py-3 font-medium text-center hover:bg-gray-50 transition-colors"
+                  className="flex-1 bg-white text-primary-600 px-6 py-3 rounded-lg font-medium text-center hover:bg-gray-50 transition-colors"
                 >
                   Envoyer un email
                 </a>
                 <a
                   href="tel:+351923319672"
-                  className="flex-1 bg-primary-800 text-white px-6 py-3 font-medium text-center hover:bg-primary-900 transition-colors"
+                  className="flex-1 bg-primary-800 text-white px-6 py-3 rounded-lg font-medium text-center hover:bg-primary-900 transition-colors"
                 >
                   Appeler maintenant
                 </a>

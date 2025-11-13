@@ -19,7 +19,7 @@ export const LanguageButton: React.FC<LanguageButtonProps> = ({
       onClick={onClick}
       className={`
         flex items-center space-x-2 w-full px-3 py-2 text-sm
-        transition-colors
+        transition-colors rounded-md
         ${isActive 
           ? 'bg-primary-50 text-primary-700' 
           : 'text-gray-600 hover:bg-gray-50'
