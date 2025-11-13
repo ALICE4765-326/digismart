@@ -50,7 +50,7 @@ export const Solutions = () => {
                   <ul className="mt-4 space-y-2">
                     {solution.benefits.map((benefit: string, idx: number) => (
                       <li key={idx} className="flex items-center text-sm text-gray-600">
-                        <span className="h-1.5 w-1.5 rounded-full bg-primary-500 mr-2" />
+                        <span className="h-1.5 w-1.5 bg-primary-500 mr-2" />
                         {benefit}
                       </li>
                     ))}

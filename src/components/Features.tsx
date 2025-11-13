@@ -71,7 +71,7 @@ export const Features = () => {
                       <ul className="mt-4 space-y-2">
                         {feature.benefits.map((benefit, index) => (
                           <li key={index} className="flex items-start text-sm text-gray-500">
-                            <span className="h-1.5 w-1.5 mt-2 rounded-full bg-primary-500 mr-2" />
+                            <span className="h-1.5 w-1.5 mt-2 bg-primary-500 mr-2" />
                             {benefit}
                           </li>
                         ))}

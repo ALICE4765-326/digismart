@@ -57,7 +57,7 @@ export const CaseStudies = () => {
                       <ul className="mt-2 space-y-2">
                         {Array.isArray(study.results) && study.results.map((result, idx) => (
                           <li key={idx} className="flex items-center text-gray-500">
-                            <span className="h-1.5 w-1.5 rounded-full bg-primary-500 mr-2" />
+                            <span className="h-1.5 w-1.5 bg-primary-500 mr-2" />
                             {result}
                           </li>
                         ))}
