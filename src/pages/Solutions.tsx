@@ -14,8 +14,8 @@ export const Solutions = () => {
   ];
 
   const videoCards = [
-    { icon: ShoppingBag, titleKey: 'solutions.appTakeAway.videos.merchant' },
     { icon: Users, titleKey: 'solutions.appTakeAway.videos.customer' },
+    { icon: ShoppingBag, titleKey: 'solutions.appTakeAway.videos.merchant' },
     { icon: TrendingUp, titleKey: 'solutions.appTakeAway.videos.admin' },
     { icon: PhoneCall, titleKey: 'solutions.appTakeAway.videos.delivery' },
   ];
