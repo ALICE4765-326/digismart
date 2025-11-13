@@ -1,6 +1,6 @@
 import React from 'react';
 import { useTranslation } from 'react-i18next';
-import { ShoppingBag, Users, TrendingUp, QrCode, CreditCard, Calendar, PhoneCall, MapPin, Utensils, Croissant, Flower, Wine, Pizza } from 'lucide-react';
+import { ShoppingBag, Users, TrendingUp, QrCode, CreditCard, Calendar, PhoneCall, MapPin, Utensils, Croissant, Flower, Wine, Pizza, ShoppingCart } from 'lucide-react';
 import { VideoCard } from '../components/Solutions/VideoCard';
 
 export const Solutions = () => {
@@ -52,19 +52,39 @@ export const Solutions = () => {
               {t('solutions.appTakeAway.description')}
             </p>
 
-            {/* Commerce Icons */}
-            <div className="flex flex-wrap justify-center gap-6 mb-16">
-              {commerceTypes.map((commerce, index) => {
-                const Icon = commerce.icon;
-                return (
-                  <div
-                    key={index}
-                    className="relative flex items-center justify-center p-6 bg-white shadow-lg w-20 h-20"
-                  >
-                    <Icon className="h-10 w-10 text-gray-700" />
-                  </div>
-                );
-              })}
+            {/* Commerce Icons with Shopping Cart */}
+            <div className="flex justify-center items-center mb-16">
+              <div className="relative">
+                {/* Shopping Cart in center */}
+                <div className="flex items-center justify-center p-8 bg-primary-600 shadow-xl w-32 h-32 relative z-10">
+                  <ShoppingCart className="h-16 w-16 text-white" />
+                </div>
+
+                {/* Commerce icons around the cart */}
+                <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">
+                  {commerceTypes.map((commerce, index) => {
+                    const Icon = commerce.icon;
+                    const angle = (index * 360) / commerceTypes.length;
+                    const radius = 140;
+                    const x = Math.cos((angle * Math.PI) / 180) * radius;
+                    const y = Math.sin((angle * Math.PI) / 180) * radius;
+
+                    return (
+                      <div
+                        key={index}
+                        className="absolute flex items-center justify-center p-4 bg-white shadow-lg w-16 h-16"
+                        style={{
+                          left: `${x}px`,
+                          top: `${y}px`,
+                          transform: 'translate(-50%, -50%)'
+                        }}
+                      >
+                        <Icon className="h-8 w-8 text-gray-700" />
+                      </div>
+                    );
+                  })}
+                </div>
+              </div>
             </div>
           </div>
 
