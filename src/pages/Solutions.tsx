@@ -1,6 +1,7 @@
 import React from 'react';
 import { useTranslation } from 'react-i18next';
-import { ShoppingBag, Users, TrendingUp, Video, QrCode, CreditCard, Calendar, PhoneCall, MapPin, Utensils, Croissant, Flower, Wine, Pizza } from 'lucide-react';
+import { ShoppingBag, Users, TrendingUp, QrCode, CreditCard, Calendar, PhoneCall, MapPin, Utensils, Croissant, Flower, Wine, Pizza } from 'lucide-react';
+import { VideoCard } from '../components/Solutions/VideoCard';
 
 export const Solutions = () => {
   const { t } = useTranslation();
@@ -14,10 +15,10 @@ export const Solutions = () => {
   ];
 
   const videoCards = [
-    { icon: Users, titleKey: 'solutions.appTakeAway.videos.customer' },
-    { icon: ShoppingBag, titleKey: 'solutions.appTakeAway.videos.merchant' },
-    { icon: TrendingUp, titleKey: 'solutions.appTakeAway.videos.admin' },
-    { icon: PhoneCall, titleKey: 'solutions.appTakeAway.videos.delivery' },
+    { icon: Users, titleKey: 'solutions.appTakeAway.videos.customer', videoName: 'customer' },
+    { icon: ShoppingBag, titleKey: 'solutions.appTakeAway.videos.merchant', videoName: 'merchant' },
+    { icon: TrendingUp, titleKey: 'solutions.appTakeAway.videos.admin', videoName: 'admin' },
+    { icon: PhoneCall, titleKey: 'solutions.appTakeAway.videos.delivery', videoName: 'delivery' },
   ];
 
   const futureProjects = [
@@ -73,27 +74,14 @@ export const Solutions = () => {
               {t('solutions.appTakeAway.videosTitle')}
             </h2>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
-              {videoCards.map((card, index) => {
-                const Icon = card.icon;
-                return (
-                  <div
-                    key={index}
-                    className="bg-white shadow-md p-8"
-                  >
-                    <div className="flex justify-center mb-6">
-                      <div className="p-4 bg-primary-100 rounded-full">
-                        <Icon className="h-8 w-8 text-primary-600" />
-                      </div>
-                    </div>
-                    <div className="aspect-video bg-gray-100 rounded-lg mb-4 flex items-center justify-center">
-                      <Video className="h-12 w-12 text-gray-400" />
-                    </div>
-                    <h3 className="text-center font-semibold text-gray-900">
-                      {t(card.titleKey)}
-                    </h3>
-                  </div>
-                );
-              })}
+              {videoCards.map((card, index) => (
+                <VideoCard
+                  key={index}
+                  icon={card.icon}
+                  titleKey={card.titleKey}
+                  videoName={card.videoName}
+                />
+              ))}
             </div>
           </div>
         </div>
