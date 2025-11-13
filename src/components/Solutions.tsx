@@ -32,10 +32,10 @@ export const Solutions = () => {
             {solutions.map((solution, index) => {
               const Icon = solution.icon;
               return (
-                <div key={index} className="bg-white rounded-lg p-6 shadow-sm hover:shadow-md transition-shadow">
+                <div key={index} className="bg-white p-6 shadow-sm">
                   <div className="flex items-start">
                     <div className="flex-shrink-0">
-                      <div className="flex items-center justify-center h-12 w-12 rounded-md bg-primary-600 text-white">
+                      <div className="flex items-center justify-center h-12 w-12 bg-primary-600 text-white">
                         <Icon className="h-6 w-6" aria-hidden="true" />
                       </div>
                     </div>
