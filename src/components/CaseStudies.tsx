@@ -15,7 +15,7 @@ interface CaseStudy {
 export const CaseStudies = () => {
   const { t } = useTranslation();
   const [isVideoModalOpen, setIsVideoModalOpen] = React.useState(false);
-  const videoUrl = useVideoUrl();
+  const videoUrl = useVideoUrl('testimonial');
   
   // Ensure we have a default empty array if translation returns undefined
   const cases = t('testimonials.cases', { returnObjects: true });
