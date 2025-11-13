@@ -77,7 +77,8 @@
         "title": "AI Phone Ordering",
         "description": "Artificial intelligence to handle your phone orders"
       },
-      "cta": "These innovations are under development. If you are interested in any of these future solutions, contact us to discuss!"
+      "cta": "These innovations are under development. If you are interested in any of these future solutions, contact us to discuss!",
+      "contactButton": "Contact us"
     }
   },
   "features": {

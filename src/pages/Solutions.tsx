@@ -175,9 +175,15 @@ export const Solutions = () => {
           </div>
 
           <div className="bg-primary-50 p-8 text-center max-w-3xl mx-auto">
-            <p className="text-lg text-gray-700">
+            <p className="text-lg text-gray-700 mb-6">
               {t('solutions.futureProjects.cta')}
             </p>
+            <a
+              href="/contact"
+              className="inline-flex items-center justify-center px-8 py-3.5 text-base font-medium text-white bg-primary-600 hover:bg-primary-700 transition-colors duration-300 shadow-lg"
+            >
+              {t('solutions.futureProjects.contactButton')}
+            </a>
           </div>
         </div>
       </div>

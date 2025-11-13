@@ -77,7 +77,8 @@
         "title": "IA de commande téléphonique",
         "description": "Intelligence artificielle pour gérer vos commandes par téléphone"
       },
-      "cta": "Ces innovations sont en cours de développement. Si vous êtes intéressé par l'une de ces futures solutions, contactez-nous pour en discuter !"
+      "cta": "Ces innovations sont en cours de développement. Si vous êtes intéressé par l'une de ces futures solutions, contactez-nous pour en discuter !",
+      "contactButton": "Nous contacter"
     }
   },
   "features": {
