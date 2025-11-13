@@ -21,7 +21,7 @@ export const Solutions = () => {
   ];
 
   return (
-    <div id="solutions" className="py-24 bg-gradient-to-b from-white to-gray-50">
+    <div id="solutions" className="bg-primary-50 py-24">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center">
           <h2 className="text-3xl font-extrabold text-gray-900 sm:text-4xl">
@@ -32,33 +32,39 @@ export const Solutions = () => {
           </p>
         </div>
 
-        <div className="mt-16 grid grid-cols-1 gap-8 sm:grid-cols-2">
+        <div className="mt-20">
+          <div className="grid grid-cols-1 gap-12 sm:grid-cols-2">
           {solutions.map((solution, index) => {
             const Icon = solution.icon;
             return (
-              <div key={index} className="relative bg-white p-8 shadow-sm">
-                <div className="relative">
-                  <div className="inline-flex items-center justify-center p-3 bg-primary-50 text-primary-600 ring-4 ring-white">
-                    <Icon className="h-6 w-6" aria-hidden="true" />
+              <div key={index} className="bg-white p-6 shadow-sm">
+                <div className="flex items-start">
+                  <div className="flex-shrink-0">
+                    <div className="flex items-center justify-center h-12 w-12 bg-primary-600 text-white">
+                      <Icon className="h-6 w-6" aria-hidden="true" />
+                    </div>
                   </div>
-                  <h3 className="mt-4 text-lg font-semibold text-gray-900">
-                    {solution.title}
-                  </h3>
-                  <p className="mt-2 text-sm text-gray-500">
-                    {solution.description}
-                  </p>
-                  <ul className="mt-4 space-y-2">
-                    {solution.benefits.map((benefit: string, idx: number) => (
-                      <li key={idx} className="flex items-center text-sm text-gray-600">
-                        <span className="h-1.5 w-1.5 bg-primary-500 mr-2" />
-                        {benefit}
-                      </li>
-                    ))}
-                  </ul>
+                  <div className="ml-4">
+                    <h3 className="text-lg font-medium text-gray-900">{solution.title}</h3>
+                    <p className="mt-2 text-base text-gray-500">
+                      {solution.description}
+                    </p>
+                    {Array.isArray(solution.benefits) && solution.benefits.length > 0 && (
+                      <ul className="mt-4 space-y-2">
+                        {solution.benefits.map((benefit: string, idx: number) => (
+                          <li key={idx} className="flex items-start text-sm text-gray-500">
+                            <span className="h-1.5 w-1.5 mt-2 bg-primary-500 mr-2" />
+                            {benefit}
+                          </li>
+                        ))}
+                      </ul>
+                    )}
+                  </div>
                 </div>
               </div>
             );
           })}
+          </div>
         </div>
       </div>
     </div>
