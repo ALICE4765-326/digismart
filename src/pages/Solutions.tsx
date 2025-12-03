@@ -14,11 +14,13 @@ export const Solutions = () => {
     { icon: Pizza },
   ];
 
+  const videos = t('solutions.appTakeAway.videos', { returnObjects: true }) as Record<string, { title: string; url: string }>;
+
   const videoCards = [
-    { icon: Users, titleKey: 'solutions.appTakeAway.videos.customer', videoName: 'customer' },
-    { icon: ShoppingBag, titleKey: 'solutions.appTakeAway.videos.merchant', videoName: 'merchant' },
-    { icon: TrendingUp, titleKey: 'solutions.appTakeAway.videos.admin', videoName: 'admin' },
-    { icon: PhoneCall, titleKey: 'solutions.appTakeAway.videos.delivery', videoName: 'delivery' },
+    { icon: Users, titleKey: 'solutions.appTakeAway.videos.customer.title', videoUrl: videos.customer?.url || '' },
+    { icon: ShoppingBag, titleKey: 'solutions.appTakeAway.videos.merchant.title', videoUrl: videos.merchant?.url || '' },
+    { icon: TrendingUp, titleKey: 'solutions.appTakeAway.videos.admin.title', videoUrl: videos.admin?.url || '' },
+    { icon: PhoneCall, titleKey: 'solutions.appTakeAway.videos.delivery.title', videoUrl: videos.delivery?.url || '' },
   ];
 
   const futureProjects = [
@@ -76,7 +78,7 @@ export const Solutions = () => {
                   key={index}
                   icon={card.icon}
                   titleKey={card.titleKey}
-                  videoName={card.videoName}
+                  videoUrl={card.videoUrl}
                 />
               ))}
             </div>
