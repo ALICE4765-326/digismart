@@ -130,53 +130,21 @@
     }
   },
   "pricing": {
-    "headline": "Choose the DigiSmart plan that best fits your business!",
+    "headline": "AppTakeAway - Complete solution for your business",
     "contactButton": "Contact",
-    "plans": {
-      "freedom": {
-        "name": "Freedom",
-        "badge": "Commission",
-        "description": "Full access for 1 free month. Then limited to a maximum of 10 visible products.",
-        "priceNote": "on sales",
-        "features": [
-          "1 full free month",
-          "Maximum 10 visible products",
-          "3% commission on sales",
-          "No admin panel",
-          "No customization",
-          "Initial menu as additional option"
-        ]
-      },
-      "pro": {
-        "name": "Pro",
-        "badge": "Popular",
-        "description": "Full access for 1 free month. Up to 20 products, logo, colors and schedules.",
-        "period": "/ month",
-        "priceNote": "Monthly subscription",
-        "features": [
-          "1 full free month",
-          "Up to 20 products",
-          "Customization: logo and colors",
-          "Schedule management",
-          "No admin panel",
-          "Initial menu as additional option"
-        ]
-      },
-      "premium": {
-        "name": "Premium",
-        "badge": "Complete",
-        "description": "Full access for 1 free month. Unlimited products, full dashboard and complete customization.",
-        "period": "/ month",
-        "priceNote": "Monthly subscription",
-        "features": [
-          "1 full free month",
-          "Unlimited products",
-          "Full admin dashboard",
-          "Complete customization",
-          "Menu included from start",
-          "Up to 15 modifications/month included"
-        ]
-      }
+    "plan": {
+      "name": "Single Plan",
+      "badge": "Commission",
+      "description": "Full access for 1 free month. Unlimited products, full dashboard and complete customization by Digismart.ai",
+      "priceNote": "commission per sale",
+      "features": [
+        "1 full free month",
+        "Unlimited products",
+        "Full administration dashboard",
+        "Complete customization by Digismart.ai",
+        "Menu included from the start",
+        "Up to 15 modifications/month included"
+      ]
     },
     "additionalServices": {
       "title": "Additional Services",
@@ -190,6 +158,11 @@
           "name": "One-time product modification",
           "description": "Add or modify a product (minimum 10 actions)",
           "price": "€10"
+        },
+        {
+          "name": "Delivery option",
+          "description": "To manage deliveries",
+          "price": "€5.90/month"
         }
       ]
     }

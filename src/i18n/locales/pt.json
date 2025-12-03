@@ -134,53 +134,21 @@
     }
   },
   "pricing": {
-    "headline": "Escolha o plano do AppTakeAway que melhor se adapta ao seu negócio!",
+    "headline": "AppTakeAway - Solução completa para o seu negócio",
     "contactButton": "Contacto",
-    "plans": {
-      "freedom": {
-        "name": "Liberdade",
-        "badge": "Comissão",
-        "description": "Acesso completo durante 1 mês gratuito. Depois, limitado a um máximo de 10 produtos visíveis.",
-        "priceNote": "sobre as vendas",
-        "features": [
-          "1 mês gratuito completo",
-          "Máximo de 10 produtos visíveis",
-          "3% de comissão sobre vendas",
-          "Sem parte admin",
-          "Sem personalização",
-          "Menu inicial como opção adicional"
-        ]
-      },
-      "pro": {
-        "name": "Pro",
-        "badge": "Popular",
-        "description": "Acesso completo durante 1 mês gratuito. Até 20 produtos, logótipo, cores e horários.",
-        "period": "/ mês",
-        "priceNote": "Subscrição mensal",
-        "features": [
-          "1 mês gratuito completo",
-          "Até 20 produtos",
-          "Personalização: logótipo e cores",
-          "Gestão de horários",
-          "Sem parte admin",
-          "Menu inicial como opção adicional"
-        ]
-      },
-      "premium": {
-        "name": "Premium",
-        "badge": "Completo",
-        "description": "Acesso completo durante 1 mês gratuito. Produtos ilimitados, painel completo e personalização total pela Digismart.ai",
-        "period": "/ mês",
-        "priceNote": "Subscrição mensal",
-        "features": [
-          "1 mês gratuito completo",
-          "Produtos ilimitados",
-          "Painel de administração completo",
-          "Personalização total pela Digismart.ai",
-          "Menu incluído desde o início",
-          "Até 15 modificações/mês incluídas"
-        ]
-      }
+    "plan": {
+      "name": "Plano Único",
+      "badge": "Comissão",
+      "description": "Acesso completo durante 1 mês gratuito. Produtos ilimitados, painel completo e personalização total pela Digismart.ai",
+      "priceNote": "comissão por venda",
+      "features": [
+        "1 mês gratuito completo",
+        "Produtos ilimitados",
+        "Painel de administração completo",
+        "Personalização total pela Digismart.ai",
+        "Menu incluído desde o início",
+        "Até 15 modificações/mês incluídas"
+      ]
     },
     "additionalServices": {
       "title": "Serviços adicionais",

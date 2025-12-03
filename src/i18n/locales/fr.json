@@ -130,53 +130,21 @@
     }
   },
   "pricing": {
-    "headline": "Choisissez le forfait DigiSmart qui correspond le mieux à votre entreprise !",
+    "headline": "AppTakeAway - Solution complète pour votre entreprise",
     "contactButton": "Contact",
-    "plans": {
-      "freedom": {
-        "name": "Liberté",
-        "badge": "Commission",
-        "description": "Accès complet pendant 1 mois gratuit. Ensuite, limité à un maximum de 10 produits visibles.",
-        "priceNote": "sur les ventes",
-        "features": [
-          "1 mois gratuit complet",
-          "Maximum 10 produits visibles",
-          "3% de commission sur les ventes",
-          "Sans partie admin",
-          "Sans personnalisation",
-          "Menu initial en option supplémentaire"
-        ]
-      },
-      "pro": {
-        "name": "Pro",
-        "badge": "Populaire",
-        "description": "Accès complet pendant 1 mois gratuit. Jusqu'à 20 produits, logo, couleurs et horaires.",
-        "period": "/ mois",
-        "priceNote": "Abonnement mensuel",
-        "features": [
-          "1 mois gratuit complet",
-          "Jusqu'à 20 produits",
-          "Personnalisation : logo et couleurs",
-          "Gestion des horaires",
-          "Sans partie admin",
-          "Menu initial en option supplémentaire"
-        ]
-      },
-      "premium": {
-        "name": "Premium",
-        "badge": "Complet",
-        "description": "Accès complet pendant 1 mois gratuit. Produits illimités, tableau de bord complet et personnalisation totale.",
-        "period": "/ mois",
-        "priceNote": "Abonnement mensuel",
-        "features": [
-          "1 mois gratuit complet",
-          "Produits illimités",
-          "Tableau de bord admin complet",
-          "Personnalisation totale",
-          "Menu inclus dès le début",
-          "Jusqu'à 15 modifications/mois incluses"
-        ]
-      }
+    "plan": {
+      "name": "Forfait Unique",
+      "badge": "Commission",
+      "description": "Accès complet pendant 1 mois gratuit. Produits illimités, tableau de bord complet et personnalisation totale par Digismart.ai",
+      "priceNote": "de commission par vente",
+      "features": [
+        "1 mois gratuit complet",
+        "Produits illimités",
+        "Tableau de bord d'administration complet",
+        "Personnalisation totale par Digismart.ai",
+        "Menu inclus dès le début",
+        "Jusqu'à 15 modifications/mois incluses"
+      ]
     },
     "additionalServices": {
       "title": "Services Supplémentaires",
@@ -190,6 +158,11 @@
           "name": "Modification ponctuelle de produit",
           "description": "Ajoute ou modifie un produit (minimum 10 actions)",
           "price": "10€"
+        },
+        {
+          "name": "Option livraison",
+          "description": "Pour gérer les livraisons",
+          "price": "5,90€/mois"
         }
       ]
     }
