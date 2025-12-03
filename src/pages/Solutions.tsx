@@ -91,13 +91,13 @@ export const Solutions = () => {
             {t('solutions.futureProjects.title')}
           </h2>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5 gap-8 mb-12">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 gap-8 mb-12 xl:justify-items-center">
             {futureProjects.map((project, index) => {
               const Icon = project.icon;
               return (
                 <div
                   key={index}
-                  className="bg-white shadow-md p-8"
+                  className="bg-white shadow-md p-8 w-full xl:max-w-sm"
                 >
                   <div className="flex justify-center mb-6">
                     <div className="p-4 bg-primary-100 rounded-full">
