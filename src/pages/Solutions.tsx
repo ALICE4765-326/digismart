@@ -20,10 +20,14 @@ export const Solutions = () => {
     return Array.isArray(videoData) ? videoData : [videoData];
   };
 
+  const customerVideos = normalizeVideos(videos.customer as any);
+  const merchantVideos = normalizeVideos(videos.merchant as any);
+  const adminVideos = normalizeVideos(videos.admin as any);
+
   const videoCards = [
-    { icon: Users, titleKey: 'solutions.appTakeAway.videos.customer.title', videos: normalizeVideos(videos.customer as any) },
-    { icon: ShoppingBag, titleKey: 'solutions.appTakeAway.videos.merchant.title', videos: normalizeVideos(videos.merchant as any) },
-    { icon: TrendingUp, titleKey: 'solutions.appTakeAway.videos.admin.title', videos: normalizeVideos(videos.admin as any) },
+    { icon: Users, title: customerVideos[0]?.title || 'Customer Side — Quick Ordering', videos: customerVideos },
+    { icon: ShoppingBag, title: merchantVideos[0]?.title || 'Merchant Side — Simplified Management', videos: merchantVideos },
+    { icon: TrendingUp, title: adminVideos[0]?.title || 'Admin Dashboard — Statistics and Tracking', videos: adminVideos },
   ];
 
   const futureProjects = [
@@ -95,7 +99,7 @@ export const Solutions = () => {
                       <div className="flex items-center gap-2 mb-1">
                         <Icon className="h-5 w-5 text-primary-600 flex-shrink-0" />
                         <h3 className="text-lg font-semibold text-gray-900 truncate">
-                          {t(card.titleKey)}
+                          {card.title}
                         </h3>
                       </div>
                       <p className="text-sm text-gray-600">
