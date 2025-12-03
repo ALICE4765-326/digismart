@@ -52,15 +52,6 @@
         "customer": "Customer Side — Quick Ordering",
         "admin": "Admin Dashboard — Statistics and Tracking",
         "delivery": "Delivery Option — Integrated Service"
-      },
-      "testTitle": "Test AppTakeAway now!",
-      "testDescription": "Scan the QR code below to discover a sample application and test the complete experience.",
-      "stepsTitle": "Installation and Testing Steps",
-      "steps": {
-        "step1": "Point your camera at the QR code, explore and navigate the site. To test the ordering experience, create your account.",
-        "step2": "You just accessed the customer space: explore the features and place a test order. To check the order status in the management space, go to point 3.",
-        "step3": "Log out, enter the username and password you saved previously, then click the \"Management Space\" button to track orders, create new products, new categories and manage your company data.",
-        "step4": "To access the \"Admin\" page, log out and enter the same username and password. Then click the \"Admin\" button to view the financial summary of the last 7 days."
       }
     },
     "futureProjects": {

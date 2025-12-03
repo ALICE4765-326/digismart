@@ -1,6 +1,6 @@
 import React from 'react';
 import { useTranslation } from 'react-i18next';
-import { ShoppingBag, Users, TrendingUp, QrCode, CreditCard, Calendar, PhoneCall, MapPin, Utensils, Croissant, Flower, Wine, Pizza, ShoppingCart } from 'lucide-react';
+import { ShoppingBag, Users, TrendingUp, CreditCard, Calendar, PhoneCall, MapPin, Utensils, Croissant, Flower, Wine, Pizza, ShoppingCart } from 'lucide-react';
 import { VideoCard } from '../components/Solutions/VideoCard';
 
 export const Solutions = () => {
@@ -78,50 +78,6 @@ export const Solutions = () => {
                   videoName={card.videoName}
                 />
               ))}
-            </div>
-          </div>
-        </div>
-      </div>
-
-      {/* Test Section */}
-      <div className="py-20 bg-white">
-        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h2 className="text-3xl font-bold text-gray-900 mb-6">
-            {t('solutions.appTakeAway.testTitle')}
-          </h2>
-          <p className="text-lg text-gray-700 mb-12">
-            {t('solutions.appTakeAway.testDescription')}
-          </p>
-
-          {/* QR Code Placeholder */}
-          <div className="inline-block bg-gray-50 p-8 shadow-lg mb-8">
-            <div className="w-64 h-64 bg-white flex items-center justify-center border-2 border-gray-200">
-              <QrCode className="h-32 w-32 text-gray-300" />
-            </div>
-          </div>
-
-          {/* Installation Steps Placeholder */}
-          <div className="bg-primary-50 p-8 text-left max-w-2xl mx-auto">
-            <h3 className="text-xl font-semibold text-gray-900 mb-4">
-              {t('solutions.appTakeAway.stepsTitle')}
-            </h3>
-            <div className="space-y-4 text-gray-700">
-              <p className="flex items-start">
-                <span className="font-bold text-primary-600 mr-3 flex-shrink-0">1.</span>
-                <span>{t('solutions.appTakeAway.steps.step1')}</span>
-              </p>
-              <p className="flex items-start">
-                <span className="font-bold text-primary-600 mr-3 flex-shrink-0">2.</span>
-                <span>{t('solutions.appTakeAway.steps.step2')}</span>
-              </p>
-              <p className="flex items-start">
-                <span className="font-bold text-primary-600 mr-3 flex-shrink-0">3.</span>
-                <span>{t('solutions.appTakeAway.steps.step3')}</span>
-              </p>
-              <p className="flex items-start">
-                <span className="font-bold text-primary-600 mr-3 flex-shrink-0">4.</span>
-                <span>{t('solutions.appTakeAway.steps.step4')}</span>
-              </p>
             </div>
           </div>
         </div>
