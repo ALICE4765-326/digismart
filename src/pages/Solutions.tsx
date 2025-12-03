@@ -1,6 +1,6 @@
 import React from 'react';
 import { useTranslation } from 'react-i18next';
-import { ShoppingBag, Users, TrendingUp, CreditCard, Calendar, PhoneCall, MapPin, Monitor, Utensils, Croissant, Flower, Wine, Pizza, ShoppingCart } from 'lucide-react';
+import { ShoppingBag, Users, TrendingUp, CreditCard, Calendar, PhoneCall, MapPin, Monitor, Utensils, Croissant, Flower, Wine, Pizza, ShoppingCart, Play, ExternalLink } from 'lucide-react';
 
 export const Solutions = () => {
   const { t } = useTranslation();
@@ -70,7 +70,7 @@ export const Solutions = () => {
             <h2 className="text-3xl font-bold text-gray-900 text-center mb-12">
               {t('solutions.appTakeAway.videosTitle')}
             </h2>
-            <div className="max-w-2xl mx-auto space-y-4">
+            <div className="max-w-3xl mx-auto space-y-3">
               {videoCards.map((card, index) => {
                 const Icon = card.icon;
                 return (
@@ -79,19 +79,35 @@ export const Solutions = () => {
                     href={card.videoUrl.replace('/embed/', '/watch?v=')}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="flex items-center justify-between bg-white shadow-md p-6 hover:shadow-lg transition-shadow group"
+                    className="flex items-center gap-4 bg-gradient-to-r from-gray-50 to-white border-2 border-gray-200 rounded-xl p-5 hover:border-primary-500 hover:shadow-xl transition-all duration-300 group cursor-pointer"
                   >
-                    <div className="flex items-center gap-4">
-                      <div className="p-3 bg-primary-100 rounded-full">
-                        <Icon className="h-6 w-6 text-primary-600" />
+                    {/* Play Icon */}
+                    <div className="flex-shrink-0 relative">
+                      <div className="w-14 h-14 bg-red-600 rounded-xl flex items-center justify-center group-hover:bg-red-700 transition-colors shadow-md">
+                        <Play className="h-7 w-7 text-white fill-white" />
                       </div>
-                      <span className="text-lg font-semibold text-gray-900 group-hover:text-primary-600 transition-colors">
-                        {t(card.titleKey)}
+                    </div>
+
+                    {/* Content */}
+                    <div className="flex-grow min-w-0">
+                      <div className="flex items-center gap-2 mb-1">
+                        <Icon className="h-5 w-5 text-primary-600 flex-shrink-0" />
+                        <h3 className="text-lg font-semibold text-gray-900 group-hover:text-primary-600 transition-colors truncate">
+                          {t(card.titleKey)}
+                        </h3>
+                      </div>
+                      <p className="text-sm text-gray-600 flex items-center gap-2">
+                        <span>{t('solutions.appTakeAway.watchVideo')}</span>
+                        <ExternalLink className="h-4 w-4 opacity-0 group-hover:opacity-100 transition-opacity" />
+                      </p>
+                    </div>
+
+                    {/* Language Badge */}
+                    <div className="flex-shrink-0">
+                      <span className="bg-primary-600 text-white text-xs font-bold px-4 py-2 rounded-full shadow-sm group-hover:bg-primary-700 transition-colors">
+                        {card.language}
                       </span>
                     </div>
-                    <span className="bg-primary-600 text-white text-xs font-medium px-3 py-1 rounded-full">
-                      {card.language}
-                    </span>
                   </a>
                 );
               })}
