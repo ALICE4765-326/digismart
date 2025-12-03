@@ -51,17 +51,17 @@
       "videos": {
         "merchant": {
           "title": "Merchant Side — Simplified Management",
-          "url": "",
+          "url": "https://www.youtube.com/embed/erFI4_WnAcI",
           "language": "English"
         },
         "customer": {
           "title": "Customer Side — Quick Ordering",
-          "url": "",
+          "url": "https://www.youtube.com/embed/M3mP4NmiIew",
           "language": "English"
         },
         "admin": {
           "title": "Admin Dashboard — Statistics and Tracking",
-          "url": "",
+          "url": "https://www.youtube.com/embed/v7QcD8cxnrY",
           "language": "English"
         }
       }
