@@ -3,7 +3,7 @@ import { useTranslation } from 'react-i18next';
 import { ShoppingBag, Users, TrendingUp, CreditCard, Calendar, PhoneCall, MapPin, Monitor, Utensils, Croissant, Flower, Wine, Pizza, ShoppingCart, Play, ExternalLink } from 'lucide-react';
 
 export const Solutions = () => {
-  const { t } = useTranslation();
+  const { t, i18n } = useTranslation();
 
   const commerceTypes = [
     { icon: Utensils },
@@ -109,18 +109,45 @@ export const Solutions = () => {
 
                     {/* Language Buttons */}
                     <div className="flex-shrink-0 flex gap-2">
-                      {card.videos.map((video, videoIndex) => (
-                        <a
-                          key={`${cardIndex}-${videoIndex}`}
-                          href={video.url.replace('/embed/', '/watch?v=')}
-                          target="_blank"
-                          rel="noopener noreferrer"
-                          className="flex items-center gap-2 bg-red-600 text-white text-sm font-bold px-4 py-2.5 rounded-full shadow-md hover:bg-red-700 transition-colors"
-                        >
-                          <Play className="h-4 w-4 fill-white" />
-                          <span>{video.language === 'Portuguese' ? 'PT' : 'FR'}</span>
-                        </a>
-                      ))}
+                      {i18n.language === 'en' ? (
+                        // English: Show both FR and PT buttons
+                        card.videos.map((video, videoIndex) => (
+                          <a
+                            key={`${cardIndex}-${videoIndex}`}
+                            href={video.url.replace('/embed/', '/watch?v=')}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="flex items-center gap-2 bg-red-600 text-white text-sm font-bold px-4 py-2.5 rounded-full shadow-md hover:bg-red-700 transition-colors"
+                          >
+                            <Play className="h-4 w-4 fill-white" />
+                            <span>{video.language.toLowerCase().includes('portug') ? 'PT' : 'FR'}</span>
+                          </a>
+                        ))
+                      ) : (
+                        // French or Portuguese: Show single button with matching language
+                        (() => {
+                          const currentLangVideo = card.videos.find(video => {
+                            if (i18n.language === 'pt') {
+                              return video.language.toLowerCase().includes('portug');
+                            } else if (i18n.language === 'fr') {
+                              return !video.language.toLowerCase().includes('portug');
+                            }
+                            return false;
+                          }) || card.videos[0];
+
+                          return (
+                            <a
+                              href={currentLangVideo.url.replace('/embed/', '/watch?v=')}
+                              target="_blank"
+                              rel="noopener noreferrer"
+                              className="flex items-center gap-2 bg-red-600 text-white text-sm font-bold px-4 py-2.5 rounded-full shadow-md hover:bg-red-700 transition-colors"
+                            >
+                              <Play className="h-4 w-4 fill-white" />
+                              <span>{t('solutions.appTakeAway.watchVideo')}</span>
+                            </a>
+                          );
+                        })()
+                      )}
                     </div>
                   </div>
                 );
