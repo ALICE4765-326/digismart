@@ -1,6 +1,6 @@
 import React from 'react';
 import { useTranslation } from 'react-i18next';
-import { ShoppingBag, Users, TrendingUp, CreditCard, Calendar, PhoneCall, MapPin, Utensils, Croissant, Flower, Wine, Pizza, ShoppingCart } from 'lucide-react';
+import { ShoppingBag, Users, TrendingUp, CreditCard, Calendar, PhoneCall, MapPin, Monitor, Utensils, Croissant, Flower, Wine, Pizza, ShoppingCart } from 'lucide-react';
 import { VideoCard } from '../components/Solutions/VideoCard';
 
 export const Solutions = () => {
@@ -26,6 +26,7 @@ export const Solutions = () => {
     { icon: Calendar, titleKey: 'solutions.futureProjects.booking.title', descKey: 'solutions.futureProjects.booking.description' },
     { icon: PhoneCall, titleKey: 'solutions.futureProjects.aiPhone.title', descKey: 'solutions.futureProjects.aiPhone.description' },
     { icon: MapPin, titleKey: 'solutions.futureProjects.realTimeTracking.title', descKey: 'solutions.futureProjects.realTimeTracking.description' },
+    { icon: Monitor, titleKey: 'solutions.futureProjects.kiosk.title', descKey: 'solutions.futureProjects.kiosk.description' },
   ];
 
   return (
@@ -90,7 +91,7 @@ export const Solutions = () => {
             {t('solutions.futureProjects.title')}
           </h2>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-12">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5 gap-8 mb-12">
             {futureProjects.map((project, index) => {
               const Icon = project.icon;
               return (

@@ -68,6 +68,14 @@
         "title": "AI Phone Ordering",
         "description": "Artificial intelligence to handle your phone orders"
       },
+      "realTimeTracking": {
+        "title": "Real-time Delivery Tracking",
+        "description": "Track your deliveries live with real-time GPS location"
+      },
+      "kiosk": {
+        "title": "Restaurant Ordering Kiosk",
+        "description": "Self-service ordering solution to optimize in-house service"
+      },
       "cta": "These innovations are under development. If you are interested in any of these future solutions, contact us to discuss!",
       "contactButton": "Contact us"
     }

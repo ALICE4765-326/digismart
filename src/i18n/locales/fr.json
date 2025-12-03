@@ -68,6 +68,14 @@
         "title": "IA de commande téléphonique",
         "description": "Intelligence artificielle pour gérer vos commandes par téléphone"
       },
+      "realTimeTracking": {
+        "title": "Suivi en temps réel des livraisons",
+        "description": "Suivez vos livraisons en direct avec localisation GPS en temps réel"
+      },
+      "kiosk": {
+        "title": "Borne de commande pour restaurant",
+        "description": "Solution de commande autonome pour optimiser le service en salle"
+      },
       "cta": "Ces innovations sont en cours de développement. Si vous êtes intéressé par l'une de ces futures solutions, contactez-nous pour en discuter !",
       "contactButton": "Nous contacter"
     }

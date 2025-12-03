@@ -72,6 +72,10 @@
         "title": "Rastreamento em tempo real das entregas",
         "description": "Acompanhe suas entregas ao vivo com localização GPS em tempo real"
       },
+      "kiosk": {
+        "title": "Terminal de pedidos para restaurante",
+        "description": "Solução de pedidos autônoma para otimizar o serviço no salão"
+      },
       "cta": "Essas inovações estão em desenvolvimento. Se está interessado em alguma dessas soluções futuras, entre em contato para discutir!",
       "contactButton": "Entrar em contato"
     }
