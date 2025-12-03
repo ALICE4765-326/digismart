@@ -1,7 +1,6 @@
 import React from 'react';
 import { useTranslation } from 'react-i18next';
 import { ShoppingBag, Users, TrendingUp, CreditCard, Calendar, PhoneCall, MapPin, Monitor, Utensils, Croissant, Flower, Wine, Pizza, ShoppingCart } from 'lucide-react';
-import { VideoCard } from '../components/Solutions/VideoCard';
 
 export const Solutions = () => {
   const { t } = useTranslation();
@@ -71,16 +70,31 @@ export const Solutions = () => {
             <h2 className="text-3xl font-bold text-gray-900 text-center mb-12">
               {t('solutions.appTakeAway.videosTitle')}
             </h2>
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-              {videoCards.map((card, index) => (
-                <VideoCard
-                  key={index}
-                  icon={card.icon}
-                  titleKey={card.titleKey}
-                  videoUrl={card.videoUrl}
-                  language={card.language}
-                />
-              ))}
+            <div className="max-w-2xl mx-auto space-y-4">
+              {videoCards.map((card, index) => {
+                const Icon = card.icon;
+                return (
+                  <a
+                    key={index}
+                    href={card.videoUrl.replace('/embed/', '/watch?v=')}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="flex items-center justify-between bg-white shadow-md p-6 hover:shadow-lg transition-shadow group"
+                  >
+                    <div className="flex items-center gap-4">
+                      <div className="p-3 bg-primary-100 rounded-full">
+                        <Icon className="h-6 w-6 text-primary-600" />
+                      </div>
+                      <span className="text-lg font-semibold text-gray-900 group-hover:text-primary-600 transition-colors">
+                        {t(card.titleKey)}
+                      </span>
+                    </div>
+                    <span className="bg-primary-600 text-white text-xs font-medium px-3 py-1 rounded-full">
+                      {card.language}
+                    </span>
+                  </a>
+                );
+              })}
             </div>
           </div>
         </div>
