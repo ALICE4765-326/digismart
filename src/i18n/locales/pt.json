@@ -50,19 +50,18 @@
       "videos": {
         "merchant": {
           "title": "Lado gestão — Gestão de encomendas simplificada",
-          "url": "https://www.youtube.com/embed/URCzTsOT4_Q"
+          "url": "https://www.youtube.com/embed/URCzTsOT4_Q",
+          "language": "Português"
         },
         "customer": {
           "title": "Lado do cliente — Pedido rápido",
-          "url": "https://www.youtube.com/embed/erm9XnpgEOk"
+          "url": "https://www.youtube.com/embed/erm9XnpgEOk",
+          "language": "Português"
         },
         "admin": {
           "title": "Painel administrativo — Estatísticas",
-          "url": "https://www.youtube.com/embed/v7QcD8cxnrY"
-        },
-        "delivery": {
-          "title": "Opção de entrega — Serviço opcional",
-          "url": ""
+          "url": "https://www.youtube.com/embed/v7QcD8cxnrY",
+          "language": "Português"
         }
       }
     },

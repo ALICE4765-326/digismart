@@ -50,19 +50,18 @@
       "videos": {
         "merchant": {
           "title": "Merchant Side — Simplified Management",
-          "url": ""
+          "url": "",
+          "language": "English"
         },
         "customer": {
           "title": "Customer Side — Quick Ordering",
-          "url": ""
+          "url": "",
+          "language": "English"
         },
         "admin": {
           "title": "Admin Dashboard — Statistics and Tracking",
-          "url": ""
-        },
-        "delivery": {
-          "title": "Delivery Option — Integrated Service",
-          "url": ""
+          "url": "",
+          "language": "English"
         }
       }
     },

@@ -14,13 +14,12 @@ export const Solutions = () => {
     { icon: Pizza },
   ];
 
-  const videos = t('solutions.appTakeAway.videos', { returnObjects: true }) as Record<string, { title: string; url: string }>;
+  const videos = t('solutions.appTakeAway.videos', { returnObjects: true }) as Record<string, { title: string; url: string; language: string }>;
 
   const videoCards = [
-    { icon: Users, titleKey: 'solutions.appTakeAway.videos.customer.title', videoUrl: videos.customer?.url || '' },
-    { icon: ShoppingBag, titleKey: 'solutions.appTakeAway.videos.merchant.title', videoUrl: videos.merchant?.url || '' },
-    { icon: TrendingUp, titleKey: 'solutions.appTakeAway.videos.admin.title', videoUrl: videos.admin?.url || '' },
-    { icon: PhoneCall, titleKey: 'solutions.appTakeAway.videos.delivery.title', videoUrl: videos.delivery?.url || '' },
+    { icon: Users, titleKey: 'solutions.appTakeAway.videos.customer.title', videoUrl: videos.customer?.url || '', language: videos.customer?.language || '' },
+    { icon: ShoppingBag, titleKey: 'solutions.appTakeAway.videos.merchant.title', videoUrl: videos.merchant?.url || '', language: videos.merchant?.language || '' },
+    { icon: TrendingUp, titleKey: 'solutions.appTakeAway.videos.admin.title', videoUrl: videos.admin?.url || '', language: videos.admin?.language || '' },
   ];
 
   const futureProjects = [
@@ -72,13 +71,14 @@ export const Solutions = () => {
             <h2 className="text-3xl font-bold text-gray-900 text-center mb-12">
               {t('solutions.appTakeAway.videosTitle')}
             </h2>
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
               {videoCards.map((card, index) => (
                 <VideoCard
                   key={index}
                   icon={card.icon}
                   titleKey={card.titleKey}
                   videoUrl={card.videoUrl}
+                  language={card.language}
                 />
               ))}
             </div>

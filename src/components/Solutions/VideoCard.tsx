@@ -7,9 +7,10 @@ interface VideoCardProps {
   icon: LucideIcon;
   titleKey: string;
   videoUrl: string;
+  language: string;
 }
 
-export const VideoCard: React.FC<VideoCardProps> = ({ icon: Icon, titleKey, videoUrl }) => {
+export const VideoCard: React.FC<VideoCardProps> = ({ icon: Icon, titleKey, videoUrl, language }) => {
   const { t } = useTranslation();
   const [isModalOpen, setIsModalOpen] = useState(false);
 
@@ -35,6 +36,11 @@ export const VideoCard: React.FC<VideoCardProps> = ({ icon: Icon, titleKey, vide
               <Play className="h-8 w-8 text-white ml-1" fill="currentColor" />
             </div>
           </div>
+          {language && (
+            <div className="absolute top-3 right-3 bg-primary-600 text-white text-xs font-medium px-3 py-1 rounded-full shadow-lg">
+              {language}
+            </div>
+          )}
         </div>
         <h3 className="text-center font-semibold text-gray-900">
           {t(titleKey)}

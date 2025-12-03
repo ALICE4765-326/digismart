@@ -50,19 +50,18 @@
       "videos": {
         "merchant": {
           "title": "Côté commerçant — Gestion simplifiée",
-          "url": "https://www.youtube.com/embed/erFI4_WnAcI"
+          "url": "https://www.youtube.com/embed/erFI4_WnAcI",
+          "language": "Français"
         },
         "customer": {
           "title": "Côté client — Commande rapide",
-          "url": "https://www.youtube.com/embed/M3mP4NmiIew"
+          "url": "https://www.youtube.com/embed/M3mP4NmiIew",
+          "language": "Français"
         },
         "admin": {
           "title": "Espace administratif — Statistiques et suivi",
-          "url": "https://www.youtube.com/embed/v7QcD8cxnrY"
-        },
-        "delivery": {
-          "title": "Option livraison — Service intégré",
-          "url": ""
+          "url": "https://www.youtube.com/embed/v7QcD8cxnrY",
+          "language": "Français"
         }
       }
     },
