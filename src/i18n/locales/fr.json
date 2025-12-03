@@ -50,15 +50,15 @@
       "videos": {
         "merchant": {
           "title": "Côté commerçant — Gestion simplifiée",
-          "url": ""
+          "url": "https://www.youtube.com/embed/erFI4_WnAcI"
         },
         "customer": {
           "title": "Côté client — Commande rapide",
-          "url": ""
+          "url": "https://www.youtube.com/embed/M3mP4NmiIew"
         },
         "admin": {
           "title": "Espace administratif — Statistiques et suivi",
-          "url": ""
+          "url": "https://www.youtube.com/embed/v7QcD8cxnrY"
         },
         "delivery": {
           "title": "Option livraison — Service intégré",
