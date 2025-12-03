@@ -102,12 +102,14 @@ export const Solutions = () => {
                       </p>
                     </div>
 
-                    {/* Language Badge */}
-                    <div className="flex-shrink-0">
-                      <span className="bg-primary-600 text-white text-xs font-bold px-4 py-2 rounded-full shadow-sm group-hover:bg-primary-700 transition-colors">
-                        {card.language}
-                      </span>
-                    </div>
+                    {/* Language Badge - Only show for English */}
+                    {card.language === 'English' && (
+                      <div className="flex-shrink-0">
+                        <span className="bg-red-600 text-white text-sm font-bold px-5 py-2.5 rounded-full shadow-md group-hover:bg-red-700 transition-colors">
+                          {card.language}
+                        </span>
+                      </div>
+                    )}
                   </a>
                 );
               })}
