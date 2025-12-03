@@ -13,12 +13,17 @@ export const Solutions = () => {
     { icon: Pizza },
   ];
 
-  const videos = t('solutions.appTakeAway.videos', { returnObjects: true }) as Record<string, { title: string; url: string; language: string }>;
+  const videos = t('solutions.appTakeAway.videos', { returnObjects: true }) as Record<string, { title: string; url: string; language: string } | { title: string; url: string; language: string }[]>;
+
+  // Normalize videos to always be arrays
+  const normalizeVideos = (videoData: { title: string; url: string; language: string } | { title: string; url: string; language: string }[]) => {
+    return Array.isArray(videoData) ? videoData : [videoData];
+  };
 
   const videoCards = [
-    { icon: Users, titleKey: 'solutions.appTakeAway.videos.customer.title', videoUrl: videos.customer?.url || '', language: videos.customer?.language || '' },
-    { icon: ShoppingBag, titleKey: 'solutions.appTakeAway.videos.merchant.title', videoUrl: videos.merchant?.url || '', language: videos.merchant?.language || '' },
-    { icon: TrendingUp, titleKey: 'solutions.appTakeAway.videos.admin.title', videoUrl: videos.admin?.url || '', language: videos.admin?.language || '' },
+    { icon: Users, titleKey: 'solutions.appTakeAway.videos.customer.title', videos: normalizeVideos(videos.customer as any) },
+    { icon: ShoppingBag, titleKey: 'solutions.appTakeAway.videos.merchant.title', videos: normalizeVideos(videos.merchant as any) },
+    { icon: TrendingUp, titleKey: 'solutions.appTakeAway.videos.admin.title', videos: normalizeVideos(videos.admin as any) },
   ];
 
   const futureProjects = [
@@ -71,46 +76,50 @@ export const Solutions = () => {
               {t('solutions.appTakeAway.videosTitle')}
             </h2>
             <div className="max-w-3xl mx-auto space-y-3">
-              {videoCards.map((card, index) => {
+              {videoCards.map((card, cardIndex) => {
                 const Icon = card.icon;
                 return (
-                  <a
-                    key={index}
-                    href={card.videoUrl.replace('/embed/', '/watch?v=')}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="flex items-center gap-4 bg-gradient-to-r from-gray-50 to-white border-2 border-gray-200 rounded-xl p-5 hover:border-primary-500 hover:shadow-xl transition-all duration-300 group cursor-pointer"
-                  >
-                    {/* Play Icon */}
-                    <div className="flex-shrink-0 relative">
-                      <div className="w-14 h-14 bg-red-600 rounded-xl flex items-center justify-center group-hover:bg-red-700 transition-colors shadow-md">
-                        <Play className="h-7 w-7 text-white fill-white" />
-                      </div>
-                    </div>
+                  <div key={cardIndex} className="space-y-3">
+                    {card.videos.map((video, videoIndex) => (
+                      <a
+                        key={`${cardIndex}-${videoIndex}`}
+                        href={video.url.replace('/embed/', '/watch?v=')}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="flex items-center gap-4 bg-gradient-to-r from-gray-50 to-white border-2 border-gray-200 rounded-xl p-5 hover:border-primary-500 hover:shadow-xl transition-all duration-300 group cursor-pointer"
+                      >
+                        {/* Play Icon */}
+                        <div className="flex-shrink-0 relative">
+                          <div className="w-14 h-14 bg-red-600 rounded-xl flex items-center justify-center group-hover:bg-red-700 transition-colors shadow-md">
+                            <Play className="h-7 w-7 text-white fill-white" />
+                          </div>
+                        </div>
 
-                    {/* Content */}
-                    <div className="flex-grow min-w-0">
-                      <div className="flex items-center gap-2 mb-1">
-                        <Icon className="h-5 w-5 text-primary-600 flex-shrink-0" />
-                        <h3 className="text-lg font-semibold text-gray-900 group-hover:text-primary-600 transition-colors truncate">
-                          {t(card.titleKey)}
-                        </h3>
-                      </div>
-                      <p className="text-sm text-gray-600 flex items-center gap-2">
-                        <span>{t('solutions.appTakeAway.watchVideo')}</span>
-                        <ExternalLink className="h-4 w-4 opacity-0 group-hover:opacity-100 transition-opacity" />
-                      </p>
-                    </div>
+                        {/* Content */}
+                        <div className="flex-grow min-w-0">
+                          <div className="flex items-center gap-2 mb-1">
+                            <Icon className="h-5 w-5 text-primary-600 flex-shrink-0" />
+                            <h3 className="text-lg font-semibold text-gray-900 group-hover:text-primary-600 transition-colors truncate">
+                              {t(card.titleKey)}
+                            </h3>
+                          </div>
+                          <p className="text-sm text-gray-600 flex items-center gap-2">
+                            <span>{t('solutions.appTakeAway.watchVideo')}</span>
+                            <ExternalLink className="h-4 w-4 opacity-0 group-hover:opacity-100 transition-opacity" />
+                          </p>
+                        </div>
 
-                    {/* Language Badge - Only show for English */}
-                    {card.language === 'English' && (
-                      <div className="flex-shrink-0">
-                        <span className="bg-red-600 text-white text-sm font-bold px-5 py-2.5 rounded-full shadow-md group-hover:bg-red-700 transition-colors">
-                          {card.language}
-                        </span>
-                      </div>
-                    )}
-                  </a>
+                        {/* Language Badge - Show if language is not empty */}
+                        {video.language && video.language !== '' && (
+                          <div className="flex-shrink-0">
+                            <span className="bg-red-600 text-white text-sm font-bold px-5 py-2.5 rounded-full shadow-md group-hover:bg-red-700 transition-colors">
+                              {video.language}
+                            </span>
+                          </div>
+                        )}
+                      </a>
+                    ))}
+                  </div>
                 );
               })}
             </div>

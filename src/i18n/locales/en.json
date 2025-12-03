@@ -49,21 +49,42 @@
       "videosTitle": "Video Demonstrations",
       "watchVideo": "Watch video",
       "videos": {
-        "merchant": {
-          "title": "Merchant Side — Simplified Management",
-          "url": "https://www.youtube.com/embed/erFI4_WnAcI",
-          "language": "English"
-        },
-        "customer": {
-          "title": "Customer Side — Quick Ordering",
-          "url": "https://www.youtube.com/embed/M3mP4NmiIew",
-          "language": "English"
-        },
-        "admin": {
-          "title": "Admin Dashboard — Statistics and Tracking",
-          "url": "https://www.youtube.com/embed/v7QcD8cxnrY",
-          "language": "English"
-        }
+        "merchant": [
+          {
+            "title": "Merchant Side — Simplified Management",
+            "url": "https://www.youtube.com/embed/qDQVRCsd_Zk",
+            "language": "Portuguese"
+          },
+          {
+            "title": "Merchant Side — Simplified Management",
+            "url": "https://www.youtube.com/embed/erFI4_WnAcI",
+            "language": "French"
+          }
+        ],
+        "customer": [
+          {
+            "title": "Customer Side — Quick Ordering",
+            "url": "https://www.youtube.com/embed/L1TnG6jK2Xc",
+            "language": "Portuguese"
+          },
+          {
+            "title": "Customer Side — Quick Ordering",
+            "url": "https://www.youtube.com/embed/M3mP4NmiIew",
+            "language": "French"
+          }
+        ],
+        "admin": [
+          {
+            "title": "Admin Dashboard — Statistics and Tracking",
+            "url": "https://www.youtube.com/embed/zEfXjZ3YWhA",
+            "language": "Portuguese"
+          },
+          {
+            "title": "Admin Dashboard — Statistics and Tracking",
+            "url": "https://www.youtube.com/embed/v7QcD8cxnrY",
+            "language": "French"
+          }
+        ]
       }
     },
     "futureProjects": {
