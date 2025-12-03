@@ -1,18 +1,16 @@
 import React, { useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import { LucideIcon, Play } from 'lucide-react';
-import { useVideoUrl } from '../../hooks/useVideoUrl';
 import { VideoModal } from '../VideoModal';
 
 interface VideoCardProps {
   icon: LucideIcon;
   titleKey: string;
-  videoName: string;
+  videoUrl: string;
 }
 
-export const VideoCard: React.FC<VideoCardProps> = ({ icon: Icon, titleKey, videoName }) => {
+export const VideoCard: React.FC<VideoCardProps> = ({ icon: Icon, titleKey, videoUrl }) => {
   const { t } = useTranslation();
-  const videoUrl = useVideoUrl(videoName);
   const [isModalOpen, setIsModalOpen] = useState(false);
 
   const handlePlayClick = () => {

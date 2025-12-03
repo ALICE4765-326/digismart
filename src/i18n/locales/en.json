@@ -48,10 +48,22 @@
       "description": "AppTakeAway is a simple and powerful application, designed for all types of businesses: restaurants, bakeries, pizzerias, florists, wine shops, takeaways, and much more. A single solution to manage your orders, customers and sales from one intuitive interface.",
       "videosTitle": "Video Demonstrations",
       "videos": {
-        "merchant": "Merchant Side — Simplified Management",
-        "customer": "Customer Side — Quick Ordering",
-        "admin": "Admin Dashboard — Statistics and Tracking",
-        "delivery": "Delivery Option — Integrated Service"
+        "merchant": {
+          "title": "Merchant Side — Simplified Management",
+          "url": ""
+        },
+        "customer": {
+          "title": "Customer Side — Quick Ordering",
+          "url": ""
+        },
+        "admin": {
+          "title": "Admin Dashboard — Statistics and Tracking",
+          "url": ""
+        },
+        "delivery": {
+          "title": "Delivery Option — Integrated Service",
+          "url": ""
+        }
       }
     },
     "futureProjects": {

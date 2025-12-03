@@ -48,10 +48,22 @@
       "description": "AppTakeAway é um aplicativo simples, projetado para todos os tipos de comércio: restaurantes, padarias, pizzarias, floristas, lojas de vinhos, takeaways e muito mais. Uma solução única para gerir seus pedidos, clientes e vendas, a partir de uma interface intuitiva.",
       "videosTitle": "Demonstrações em vídeo",
       "videos": {
-        "merchant": "Lado gestão — Gestão de encomendas simplificada",
-        "customer": "Lado do cliente — Pedido rápido",
-        "admin": "Painel administrativo — Estatísticas",
-        "delivery": "Opção de entrega — Serviço opcional"
+        "merchant": {
+          "title": "Lado gestão — Gestão de encomendas simplificada",
+          "url": ""
+        },
+        "customer": {
+          "title": "Lado do cliente — Pedido rápido",
+          "url": ""
+        },
+        "admin": {
+          "title": "Painel administrativo — Estatísticas",
+          "url": ""
+        },
+        "delivery": {
+          "title": "Opção de entrega — Serviço opcional",
+          "url": ""
+        }
       }
     },
     "futureProjects": {
