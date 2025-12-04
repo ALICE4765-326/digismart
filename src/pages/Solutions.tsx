@@ -89,7 +89,7 @@ export const Solutions = () => {
                   >
                     {/* Play Icon */}
                     <div className="flex-shrink-0 relative">
-                      <div className="w-14 h-14 bg-red-600 rounded-xl flex items-center justify-center shadow-md">
+                      <div className="w-14 h-14 bg-red-400 rounded-xl flex items-center justify-center shadow-md">
                         <Play className="h-7 w-7 text-white fill-white" />
                       </div>
                     </div>
@@ -117,7 +117,7 @@ export const Solutions = () => {
                             href={video.url.replace('/embed/', '/watch?v=')}
                             target="_blank"
                             rel="noopener noreferrer"
-                            className="flex items-center gap-2 bg-red-600 text-white text-sm font-bold px-4 py-2.5 rounded-full shadow-md hover:bg-red-700 transition-colors"
+                            className="flex items-center gap-2 bg-red-400 text-white text-sm font-bold px-4 py-2.5 rounded-full shadow-md hover:bg-red-500 transition-colors"
                           >
                             <Play className="h-4 w-4 fill-white" />
                             <span>{video.language.toLowerCase().includes('portug') ? 'PT' : 'FR'}</span>
@@ -140,7 +140,7 @@ export const Solutions = () => {
                               href={currentLangVideo.url.replace('/embed/', '/watch?v=')}
                               target="_blank"
                               rel="noopener noreferrer"
-                              className="flex items-center gap-2 bg-red-600 text-white text-sm font-bold px-4 py-2.5 rounded-full shadow-md hover:bg-red-700 transition-colors"
+                              className="flex items-center gap-2 bg-red-400 text-white text-sm font-bold px-4 py-2.5 rounded-full shadow-md hover:bg-red-500 transition-colors"
                             >
                               <Play className="h-4 w-4 fill-white" />
                               <span>{t('solutions.appTakeAway.watchVideo')}</span>
