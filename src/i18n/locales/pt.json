@@ -9,7 +9,7 @@
   "hero": {
     "title": "Soluções digitais para transformar seu dia a dia profissional",
     "subtitle": "Melhore sua produtividade, automatize suas tarefas e desenvolva sua presença online",
-    "description": "Na Digismart.ia, transformamos seus desafios diários em oportunidades através de soluções adaptadas e inovadoras. Do gerenciamento de redes sociais ao desenvolvimento de aplicativos personalizados, cada ferramenta é projetada para resolver seus problemas específicos e impulsionar sua produtividade.",
+    "description": "Na Digismart.ai, transformamos seus desafios diários em oportunidades através de soluções adaptadas e inovadoras. Do gerenciamento de redes sociais ao desenvolvimento de aplicativos personalizados, cada ferramenta é projetada para resolver seus problemas específicos e impulsionar sua produtividade.",
     "cta": {
       "primary": "Descubra nossas soluções agora!",
       "secondary": "Saiba mais"
@@ -43,9 +43,9 @@
       ]
     },
     "appTakeAway": {
-      "title": "AppTakeAway — A solução universal de pedidos para todos os comerciantes",
+      "title": "AppClickandCollect — A solução universal de pedidos para todos os comerciantes",
       "subtitle": "Simplifique seus pedidos, aumente suas vendas e ofereça uma experiência perfeita aos seus clientes.",
-      "description": "AppTakeAway é um aplicativo simples, projetado para todos os tipos de comércio: restaurantes, padarias, pizzarias, floristas, lojas de vinhos, Click and collect e muito mais. Uma solução única para gerir seus pedidos, clientes e vendas, a partir de uma interface intuitiva.",
+      "description": "AppClickandCollect é um aplicativo simples, projetado para todos os tipos de comércio: restaurantes, padarias, pizzarias, floristas, lojas de vinhos, Click and collect e muito mais. Uma solução única para gerir seus pedidos, clientes e vendas, a partir de uma interface intuitiva.",
       "videosTitle": "Demonstrações em vídeo",
       "watchVideo": "Assistir vídeo",
       "videos": {
@@ -141,7 +141,7 @@
     }
   },
   "pricing": {
-    "headline": "AppTakeAway - Solução completa para o seu negócio",
+    "headline": "AppClickandCollect - Solução completa para o seu negócio",
     "contactButton": "Contacto",
     "plan": {
       "name": "Plano Único",
@@ -176,7 +176,7 @@
     }
   },
   "advantages": {
-    "title": "Por que escolher a Digismart.ia?",
+    "title": "Por que escolher a Digismart.ai?",
     "subtitle": "Expertise única para seu sucesso",
     "items": [
       {
@@ -253,7 +253,7 @@
     "rights": "Todos os direitos reservados."
   },
   "meta": {
-    "title": "Digismart.ia - Soluções Tecnológicas Inovadoras",
+    "title": "Digismart.ai - Soluções Tecnológicas Inovadoras",
     "description": "Soluções digitais personalizadas para transformar seu dia a dia profissional. Aplicativos personalizados e gestão de redes sociais para impulsionar sua produtividade."
   },
   "promo": {
