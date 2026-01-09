@@ -9,7 +9,7 @@
   "hero": {
     "title": "Digital solutions to transform your professional life",
     "subtitle": "Improve your productivity, automate your tasks and develop your online presence",
-    "description": "At Digismart.ia, we transform your daily challenges into opportunities through adapted and innovative solutions. From social media management to custom application development, each tool is designed to solve your specific problems and boost your productivity.",
+    "description": "At Digismart.ai, we transform your daily challenges into opportunities through adapted and innovative solutions. From social media management to custom application development, each tool is designed to solve your specific problems and boost your productivity.",
     "cta": {
       "primary": "Discover our solutions now!",
       "secondary": "Learn more"
@@ -43,9 +43,9 @@
       ]
     },
     "appTakeAway": {
-      "title": "AppTakeAway — The universal ordering solution for all businesses",
+      "title": "AppClickandCollect — The universal ordering solution for all businesses",
       "subtitle": "Simplify your orders, boost your sales, and offer a seamless experience to your customers.",
-      "description": "AppTakeAway is a simple and powerful application, designed for all types of businesses: restaurants, bakeries, pizzerias, florists, wine shops, Click and collect, and much more. A single solution to manage your orders, customers and sales from one intuitive interface.",
+      "description": "AppClickandCollect is a simple and powerful application, designed for all types of businesses: restaurants, bakeries, pizzerias, florists, wine shops, Click and collect, and much more. A single solution to manage your orders, customers and sales from one intuitive interface.",
       "videosTitle": "Video Demonstrations",
       "watchVideo": "Watch video",
       "videos": {
@@ -162,7 +162,7 @@
     }
   },
   "pricing": {
-    "headline": "AppTakeAway - Complete solution for your business",
+    "headline": "AppClickandCollect - Complete solution for your business",
     "contactButton": "Contact",
     "plan": {
       "name": "Single Plan",
@@ -197,7 +197,7 @@
     }
   },
   "advantages": {
-    "title": "Why choose Digismart.ia?",
+    "title": "Why choose Digismart.ai?",
     "subtitle": "Unique expertise for your success",
     "items": [
       {
@@ -274,7 +274,7 @@
     "rights": "All rights reserved."
   },
   "meta": {
-    "title": "Digismart.ia - Innovative Technology Solutions",
+    "title": "Digismart.ai - Innovative Technology Solutions",
     "description": "Custom digital solutions to transform your professional daily life. Custom applications and social media management to boost your productivity."
   },
   "promo": {
