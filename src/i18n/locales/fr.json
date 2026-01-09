@@ -9,7 +9,7 @@
   "hero": {
     "title": "Des solutions numériques pour transformer votre quotidien professionnel",
     "subtitle": "Améliorez votre productivité, automatisez vos tâches et développez votre présence en ligne",
-    "description": "Chez Digismart.ia, nous transformons vos défis quotidiens en opportunités grâce à des solutions adaptées et innovantes. De la gestion de vos réseaux sociaux à la création d'applications personnalisées, chaque outil est pensé pour résoudre vos problèmes spécifiques et booster votre productivité.",
+    "description": "Chez Digismart.ai, nous transformons vos défis quotidiens en opportunités grâce à des solutions adaptées et innovantes. De la gestion de vos réseaux sociaux à la création d'applications personnalisées, chaque outil est pensé pour résoudre vos problèmes spécifiques et booster votre productivité.",
     "cta": {
       "primary": "Découvrez nos solutions dès maintenant !",
       "secondary": "En savoir plus"
@@ -43,9 +43,9 @@
       ]
     },
     "appTakeAway": {
-      "title": "AppTakeAway — La solution universelle de commande pour tous les commerçants",
+      "title": "AppClickandCollect — La solution universelle de commande pour tous les commerçants",
       "subtitle": "Simplifiez vos commandes, boostez vos ventes, et offrez une expérience fluide à vos clients.",
-      "description": "AppTakeAway est une application simple et puissante, conçue pour tous les types de commerces : restaurants, boulangeries, pizzerias, fleuristes, cavistes, Click and collect, et bien plus encore. Une solution unique pour gérer vos commandes, vos clients et vos ventes, depuis une seule interface intuitive.",
+      "description": "AppClickandCollect est une application simple et puissante, conçue pour tous les types de commerces : restaurants, boulangeries, pizzerias, fleuristes, cavistes, Click and collect, et bien plus encore. Une solution unique pour gérer vos commandes, vos clients et vos ventes, depuis une seule interface intuitive.",
       "videosTitle": "Démonstrations vidéo",
       "watchVideo": "Voir la vidéo",
       "videos": {
@@ -141,7 +141,7 @@
     }
   },
   "pricing": {
-    "headline": "AppTakeAway - Solution complète pour votre entreprise",
+    "headline": "AppClickandCollect - Solution complète pour votre entreprise",
     "contactButton": "Contact",
     "plan": {
       "name": "Forfait Unique",
@@ -176,7 +176,7 @@
     }
   },
   "advantages": {
-    "title": "Pourquoi choisir Digismart.ia ?",
+    "title": "Pourquoi choisir Digismart.ai ?",
     "subtitle": "Une expertise unique pour votre réussite",
     "items": [
       {
@@ -253,7 +253,7 @@
     "rights": "Tous droits réservés."
   },
   "meta": {
-    "title": "Digismart.ia - Solutions technologiques innovantes",
+    "title": "Digismart.ai - Solutions technologiques innovantes",
     "description": "Solutions numériques sur mesure pour transformer votre quotidien professionnel. Applications personnalisées et gestion des réseaux sociaux pour booster votre productivité."
   },
   "promo": {
