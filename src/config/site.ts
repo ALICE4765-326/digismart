@@ -4,7 +4,7 @@
 export const siteConfig = {
   // === INFORMATIONS DE L'ENTREPRISE ===
   company: {
-    name: "Digismart.ia",
+    name: "Digismart.ai",
     tagline: "Solutions technologiques innovantes",
     description: "Solutions numériques sur mesure pour transformer votre quotidien professionnel",
   },
